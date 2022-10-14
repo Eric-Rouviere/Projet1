@@ -2,14 +2,117 @@
     margin:0;
     padding:0;
   }
+/*........................main.................*/
 
+.main_container {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   width:100%;
+   height: 100vh;
+   
+}
+#background {
+
+    background-image: url("/images/décor/fond-principal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 8;
+    grid-column-end: 9;
+    
+ }
+  
+#corner_left {
+
+   background-image: url("/images/décor/corner_left.png"); 
+   grid-row-start: 2;
+   grid-column-start: 1;
+   grid-row-end: 4;
+   grid-column-end: 3;
+   order: 2;
+   background-repeat: no-repeat;
+   background-size: contain;
+   
+}
+
+#corner_right {
+
+   background-image: url("/images/décor/corner_right.png"); 
+   background-repeat: no-repeat;
+   background-size: contain;
+   grid-row-start: 6;
+   grid-column-start: 7;
+   grid-row-end: 8;
+   grid-column-end: 9;
+   order:2;
+   background-position: bottom;
+   
+}
+#shenron {
+
+   background-image: url("images/shenron.png");
+   grid-row-start: 2;
+   grid-column-start: 1;
+   grid-row-end: 8;
+   grid-column-end: 9;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+   
+}
+#header{
+
+   background-color: rgba(189,37,27,1); 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 9;
+   
+   width:100%;
+   
+}
+#footer {
+
+   background-color: rgba(189,37,27,1);
+   grid-row-start: 8;
+   grid-column-start: 1;
+
+   grid-row-end: 9;
+   grid-column-end: 9;
+   width:100%;
+   
+   
+}
+
+
+
+
+
+
+
+
+header{
+    width:100%;
+
+}
+.main{
+    display:flex;
+    flex-direction: column;
+}
 .header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     width:100%;
     height:65px;
     background-color: rgba(189,37,27,1);
-    position: absolute;
-    top: 0px;
-    left: 0px;
     z-index: 1;
 }
 .mainTitle{
@@ -19,81 +122,121 @@
 }
 
 
-.main {
+.main_section {
     width: 100%;
-    height: 800px;
+    height: 600px;
     background: rgba(255,255,255,1);
     background: url("../images/décor/fond-principal.png");
     background-repeat: no-repeat;
-    background-position-y: bottom;
     background-size: 100% 800px;
     opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
     overflow: hidden;
   }
-.erza{
-    width: 100%;
-    height: 100%;
-    background: url("../images/personnages/erza.png");
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: 110px 80px;
-    opacity: 1;
-    position: absolute;
-    top:0px;
-    left: 0px;
-    overflow: hidden;
-    border:none;
-    z-index: 2;
-    
+
+.main_section_design{
+    width:100%;
+    height:600px;
+    display: flex;
 }
-.ikki{
-    width: 100%;
-    height: 100%;
-    background: url("../images/personnages/ikki ailes feu.png");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 110px 110px;
-    opacity: 1;
-    position: absolute;
-    top:0px;
-    right: 0px;
-    overflow: hidden;
-    border:none;
-    z-index: 2;    
+.container_left_box{
+    width:375px;
+    height:300px;
+}
+.box_corner_left{
+    
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        top:0px;
+        left:0px;
+        
+    }
+        
+.content_corner_left
+    {
+        display: block;
+        width: 200%;
+        height: 200%;
+        position: absolute;
+        border-radius: 50%;
+        opacity: 1;
+        background-color: none;
+        overflow:hidden;
+        top: 0;
+        left: 0;
+        box-shadow: 50px 50px 0 0 rgba(189,37,27,1);
 }
 
 .corner_left{
     width: 75%;
     height: 300px;
-    background: url("../images/décor/corner_left.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 300px 300px;
     opacity: 1;
-    position: absolute;
-    top:70px;
-    left: 0px;
     overflow: hidden;
     border:none;
     z-index: 1;
-    
+    margin-top:5px;    
+}
+
+.corner_right{
+    width: 75%;
+    height: 300px;
+    opacity: 1;
+    overflow: hidden;
+    border:none;
+    z-index: 1;
+    margin-bottom:5px;
 }
 
 .shenron {
     width: 250px;
     height: 500px;
-    background: url("../images/shenron.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size:250px 500px;
     opacity: 1;
-    position: absolute;
-    top: 150px;
-    left: 70px;
-    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    
+}
+
+/*...........................erza......................*/
+
+#erza{
+    width:9rem;
+    height:6rem;
+}
+.erza{
+    width: 100px;
+    height: 100%;
+    opacity: 1;
+    border:none;
+    z-index: 2;
+    padding-top: 10px;
+    padding-right: 30px;
+    
+}
+
+/*....................ikki................*/
+
+#ikki{
+    width:9rem;
+    height:8rem;
+}
+.ikki{
+    width: 20%;
+    height: 20%;
+    opacity: 1;
+    border:none;
+    z-index: 2;
+    padding-bottom: 50px;  
+    padding-right: 55px;
+}
+/*.....................top balls..............*/
+
+.boules_top{
+    width:75%;
+    height:350px;
+    position:absolute;
+    top:100px;
+    left:0px;
 }
 .boule_auteur {
     width: 80px;
@@ -159,85 +302,80 @@
     z-index: 2;
     
 }
-
+/*......................footer..................*/
 
 footer{
     width:100%;
-    height:100px;
+    height:80px;
     background-color: rgba(189,37,27,1);
-    position: absolute;
-    top: 780px;
-    
-
+    display:flex;
+    align-content: flex-end;
 }
 .design_nuages{
     width:100%;
     height:100px;
     display:flex;
     justify-content: space-around;
+    align-items: flex-end;
+}
+.buttons_footer{
+    width:100%;
+    height:20%;
+    padding-top: 3rem;
+    display:flex;
+    justify-content: space-around;
+    z-index: 2;
+
 }
 .nuages{
     width: 80px;
-    height: 40px;
+    height: 50px;
     background: url("../images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80px;
     opacity: 1;
-    position:absolute;
-    top:750px;
     overflow: hidden;
     border:none;
     z-index: 2;
 }
 .nuages1{
     width: 80px;
-    height: 40px;
+    height: 50px;
     background: url("../images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80px;
     opacity: 1;
-    position:absolute;
-    top:750px;
     overflow: hidden;
     border:none;
     z-index: 2;
 }
 .nuages2{
     width: 80px;
-    height: 40px;
+    height: 50px;
     background: url("../images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80px;
     opacity: 1;
-    position:absolute;
-    top:750px;
     overflow: hidden;
     border:none;
     z-index: 2;
 }
 .nuages3{
     width: 80px;
-    height: 40px;
+    height: 50px;
     background: url("../images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80px;
     opacity: 1;
-    position:absolute;
-    top:750px;
     overflow: hidden;
     border:none;
     z-index: 2;
 }
-.buttons_footer{
-    display:flex;
-    justify-content: space-around;
-    align-content:flex-end;
 
-}
 
 
 
