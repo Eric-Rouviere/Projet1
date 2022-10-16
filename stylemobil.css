@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
   }
-/*........................main.................*/
+/*...........................................main..................................*/
 
 .main_container {
    display: grid; 
@@ -12,7 +12,7 @@
    
    gap: 0px;
    width:100%;
-   height: 100vh;
+   height: 100%;
    
 }
 #background {
@@ -32,8 +32,8 @@
    background-image: url("/images/décor/corner_left.png"); 
    grid-row-start: 2;
    grid-column-start: 1;
-   grid-row-end: 4;
-   grid-column-end: 3;
+   grid-row-end: 5;
+   grid-column-end: 4;
    order: 2;
    background-repeat: no-repeat;
    background-size: contain;
@@ -42,15 +42,15 @@
 
 #corner_right {
 
-   background-image: url("/images/décor/corner_right.png"); 
+   background-image: url("/images/décor/coin_droit.png"); 
    background-repeat: no-repeat;
-   background-size: contain;
-   grid-row-start: 6;
-   grid-column-start: 7;
-   grid-row-end: 8;
-   grid-column-end: 9;
-   order:2;
-   background-position: bottom;
+    background-size: contain;
+    grid-row-start: 5;
+    grid-column-start: 7;
+    grid-row-end: 8;
+    grid-column-end: 9;
+    order: 2;
+    background-position: bottom;
    
 }
 #shenron {
@@ -67,15 +67,16 @@
    
 }
 #header{
-
-   background-color: rgba(189,37,27,1); 
-   grid-row-start: 1;
-   grid-column-start: 1;
-
-   grid-row-end: 2;
-   grid-column-end: 9;
-   
-   width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(189,37,27,1); 
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 9;   
+     width:100%;
    
 }
 #footer {
@@ -87,34 +88,16 @@
    grid-row-end: 9;
    grid-column-end: 9;
    width:100%;
+   flex-direction: column;
    
    
 }
 
-
-
-
-
-
-
-
-header{
-    width:100%;
-
-}
 .main{
     display:flex;
     flex-direction: column;
 }
-.header {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    width:100%;
-    height:65px;
-    background-color: rgba(189,37,27,1);
-    z-index: 1;
-}
+
 .mainTitle{
     text-align: center;
     font-size: 26px;
@@ -122,186 +105,195 @@ header{
 }
 
 
-.main_section {
-    width: 100%;
-    height: 600px;
-    background: rgba(255,255,255,1);
-    background: url("../images/décor/fond-principal.png");
-    background-repeat: no-repeat;
-    background-size: 100% 800px;
-    opacity: 1;
-    overflow: hidden;
-  }
-
-.main_section_design{
-    width:100%;
-    height:600px;
-    display: flex;
-}
-.container_left_box{
-    width:375px;
-    height:300px;
-}
-.box_corner_left{
-    
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        position: relative;
-        top:0px;
-        left:0px;
-        
-    }
-        
-.content_corner_left
-    {
-        display: block;
-        width: 200%;
-        height: 200%;
-        position: absolute;
-        border-radius: 50%;
-        opacity: 1;
-        background-color: none;
-        overflow:hidden;
-        top: 0;
-        left: 0;
-        box-shadow: 50px 50px 0 0 rgba(189,37,27,1);
-}
-
-.corner_left{
-    width: 75%;
-    height: 300px;
-    opacity: 1;
-    overflow: hidden;
-    border:none;
-    z-index: 1;
-    margin-top:5px;    
-}
-
-.corner_right{
-    width: 75%;
-    height: 300px;
-    opacity: 1;
-    overflow: hidden;
-    border:none;
-    z-index: 1;
-    margin-bottom:5px;
-}
-
-.shenron {
-    width: 250px;
-    height: 500px;
-    opacity: 1;
-    display:flex;
-    justify-content: center;
-    
-}
-
-/*...........................erza......................*/
+/*....................................erza.....................................*/
 
 #erza{
-    width:9rem;
-    height:6rem;
+    width:8rem;
+    height:7rem;
 }
 .erza{
-    width: 100px;
-    height: 100%;
     opacity: 1;
-    border:none;
-    z-index: 2;
-    padding-top: 10px;
-    padding-right: 30px;
-    
+    border: none;
+    z-index: 2;    
 }
 
-/*....................ikki................*/
+/*...................................ikki.......................................*/
 
 #ikki{
-    width:9rem;
-    height:8rem;
+    width:8rem;
+    height:7rem;
 }
 .ikki{
-    width: 20%;
-    height: 20%;
     opacity: 1;
-    border:none;
+    border: none;
     z-index: 2;
-    padding-bottom: 50px;  
-    padding-right: 55px;
 }
-/*.....................top balls..............*/
 
+/*..................................top balls....................................*/
 .boules_top{
-    width:75%;
-    height:350px;
-    position:absolute;
-    top:100px;
-    left:0px;
+    position: absolute;
+    top: 6rem;
+    left: 0px;
 }
 .boule_auteur {
-    width: 80px;
-    height: 80px;
+    width: 6rem;
+    height: 6rem;
     background: url("../images/décor/boule 1.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 130px;
+    background-size: 8.5rem;
     opacity: 1;
     position: relative;
-    top: 45px;
-    left: 170px;
+    left: 12rem;
+    top: -2rem;
     overflow: hidden;
-    border:none;
+    border: none;
     z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
     
 }
 .boule_shonen {
-    width: 80px;
-    height: 80px;
+    width: 6rem;
+    height: 6rem;
     background: url("../images/décor/boule 2.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 80px;
+    background-size: 5rem;
     opacity: 1;
     position: relative;
-    top: 70px;
-    left: 10px;
+    top: -1rem;
+    left: 0rem;
     overflow: hidden;
-    border:none;
+    border: none;
     z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
     
 }
 .boule_seinen {
-    width: 80px;
-    height: 80px;
+    width: 6rem;
+    height: 6rem;
     background: url("../images/décor/boule 3.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 130px;
+    background-size: 9rem;
     opacity: 1;
     position: relative;
-    top: 120px;
-    left: -135px;
+    top: 2rem;
+    left: -11rem;
     overflow: hidden;
-    border:none;
+    border: none;
     z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
     
 }
 .boule_shojo {
-    width: 80px;
-    height: 80px;
+    width: 6rem;
+    height: 6rem;
     background: url("../images/décor/boule 4.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 125px;
+    background-size: 9rem;
     opacity: 1;
     position: absolute;
-    top: 185px;
-    left: 0px;
+    top: 7.5rem;
+    left: 0rem;
     overflow: hidden;
-    border:none;
+    border: none;
     z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
     
 }
+/*..................................bottom balls....................................*/
+.boule_liseuse {
+    width: 6rem;
+    height: 6rem;
+    background: url("../images/décor/boule 5.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 6rem;
+    opacity: 1;
+    position: absolute;
+    top: 28rem;
+    left: 20rem;
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
+}
+.boule_videos {
+    width: 9rem;
+    height: 9rem;
+    background: url("../images/décor/boule 4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10rem;
+    opacity: 1;
+    position: absolute;
+    top: 38rem;
+    left: 13rem;
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
+}
+
+.boule_artbooks {
+    width: 9rem;
+    height: 9rem;
+    background: url("../images/décor/boule 4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10rem;
+    opacity: 1;
+    position: absolute;
+    top: 33rem;
+    left: 17rem;
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
+}
+/*......................persos sur nuages..................*/
+
+.design_persos_petits{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Jiraya{
+    width: 5rem;
+    height: 4rem;
+    background: url("../code/images/personnages/giraya_petit02.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1rem;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+}
+
+
 /*......................footer..................*/
 
 footer{
@@ -310,69 +302,67 @@ footer{
     background-color: rgba(189,37,27,1);
     display:flex;
     align-content: flex-end;
+    
 }
-.design_nuages{
-    width:100%;
-    height:100px;
-    display:flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
+
 .buttons_footer{
-    width:100%;
-    height:20%;
-    padding-top: 3rem;
     display:flex;
     justify-content: space-around;
     z-index: 2;
+}
 
+/*..........................design nuages..........................*/
+
+.design_nuages{
+    display: flex;
+    justify-content: space-around;
 }
 .nuages{
-    width: 80px;
-    height: 50px;
+    width: 5rem;
+    height: 4rem;
     background: url("../images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80px;
+    background-size: 1rem;
     opacity: 1;
     overflow: hidden;
-    border:none;
+    border: none;
     z-index: 2;
 }
 .nuages1{
-    width: 80px;
-    height: 50px;
+    width: 5rem;
+    height: 4rem;
     background: url("../images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80px;
+    background-size: 1rem;
     opacity: 1;
     overflow: hidden;
-    border:none;
+    border: none;
     z-index: 2;
 }
 .nuages2{
-    width: 80px;
-    height: 50px;
+    width: 5rem;
+    height: 4rem;
     background: url("../images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80px;
+    background-size: 1rem;
     opacity: 1;
     overflow: hidden;
-    border:none;
+    border: none;
     z-index: 2;
 }
 .nuages3{
-    width: 80px;
-    height: 50px;
+    width: 5rem;
+    height: 4rem;
     background: url("../images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80px;
+    background-size: 1rem;
     opacity: 1;
     overflow: hidden;
-    border:none;
+    border: none;
     z-index: 2;
 }
 
