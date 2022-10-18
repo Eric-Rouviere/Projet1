@@ -58,9 +58,101 @@
             <div class="boules_top">
 
                 <button class="boule_auteur">Le mot de l’auteur</button>
-                <button class="boule_shonen">Shonen</button>
-                <button class="boule_seinen">Seinen</button>
-                <button class="boule_shojo">Shojo</button>
+                <button class="boule_shonen" onclick="shonen()">Shonen</button>
+                    <div id="display_shonen" style="display:none;">En japonais, « Shonen » signifie « garçon et adolescent ». Il n’est pas à proprement parler un type mais plutôt une cible éditoriale de manga.
+                        Il est d’usage de dire qu’un manga est un Shonen s’il est dans un premier temps prépublié au Japon dans un magazine. Il cible en particulier un public composé de jeunes 
+                        personnes de sexe masculin. Pour les filles, on retrouve le « Shojo » qui est une ligne éditoriale pour les plus jeunes, tandis que le « Josei » concerne les femmes adultes.
+                        Pourtant, les adolescents ne sont pas les seuls à s’intéresser au Shonen puisqu’une audience bien plus diversifiée lit les nombreuses aventures de Naruto ou bien de Luffy dans
+                        One Piece ! Ce terme est également désigné aujourd’hui lorsque l’on veut parler du nekketsu. Il figure parmi les procédés narratifs les plus célèbres au monde en ayant notamment
+                        été à l’origine d’œuvres incontournables tels que Dragon Ball ainsi que des mangas de sport très populaires à l’instar d’Olive et Tom. Le nekketsku a créé une relation 
+                        d’interdépendance entre tous les Shonen qui sont désormais liés par des caractéristiques communes. Les personnages principaux partagent des valeurs communes comme l’amitié, 
+                        le travail, le dépassement de soi ou encore l’esprit d’équipe. C’est ainsi que le Shonen peut être décrit comme un voyage initiatique où l’on assite à l’émergence d’un personnage
+                        ordinaire qui s’élève et se transcende pour devenir un véritable héros.</br>
+
+                        Quelques exemples de Shonen</br>
+
+                        Pour découvrir une vaste sélection de Shonen et ainsi suivre les aventures de vos héros de mangas préférés, nous vous conseillons de vous rendre sur un site de streaming de mangas légal.
+                        Faire le choix de visionner tous les classiques de l’animé japonais et connaitre toutes les nouveautés est judicieux pour aider l’industrie à continuer de produire des œuvres de qualité.
+                        Une plateforme de streaming vous offre alors la possibilité de visionner une multitude de Shonen. Vous pouvez aussi bien retrouver les sagas de One Piece et les histoires de l’équipage 
+                        de Chapeau de paille mené par Luffy comme l’univers des ninjas et des samouraïs avec Naruto. Si vous êtes passionné d’animés ou que vous souhaitez découvrir cet univers, alors vous ne 
+                        serez pas déçus puisqu’il existe une multitude de Shonen disponibles en ligne avec par exemple Bleach, Fairy Tale, L’attaque des Titans et bien plus encore !
+                        
+                    </div>
+                <button class="boule_seinen"onclick="seinen()">Seinen</button>
+                    
+                <div id="display_seinen" style="display:none;">Le seinen manga (青年漫画?, le manga pour jeune homme) est utilisé pour désigner une ligne éditoriale de manga, dont la cible éditoriale est avant
+                        tout constituée par les jeunes adultes de sexe masculin. Il arrive cependant que le genre soit destiné à des personnes plus âgées1. Le genre est à opposer au josei manga (女性漫画?, le manga
+                        pour jeune femme).
+                        Le seinen manga n'est pas un genre, le terme désigne la cible éditoriale du manga. Ainsi, un manga est considéré comme un seinen s'il a été prépublié au Japon dans un magazine dont la cible
+                        première est composée de jeunes adultes de sexe masculin.
+                        Le concept du seinen a été introduit en 1946. En effet, après la Seconde Guerre mondiale, le manga est devenu un divertissement populaire grâce aux innovations apportées par Osamu Tezuka au
+                        point de vue graphique et narratif. Cependant, son style trop enfantin et proche des Silly Symphonies de Disney a vu naître certaines critiques au Japon. Ainsi, plusieurs artistes décident 
+                        de publier des histoires plus sérieuses à la fin des années 1950 dans des kashihonya, ou librairies de prêts, qui commençaient à décliner du fait de la hausse du niveau de vie japonais. 
+                        Les séries publiées sont alors plus violentes, réalistes et contiennent des scènes sexuelles explicites. Yoshihiro Tatsumi nomme ce style gekiga (images dramatiques). Des séries comme Kamui
+                        de Sampei Shirato ou Golgo 13 de Takao Saitō voient le jour, notamment dans le célèbre magazine Garo, et le succès est au rendez-vous. Afin de profiter de ce succès et l'élargir, les éditeurs
+                        de mangas lancent le seinen manga dans les années 1960 et en font une cible éditoriale destinée aux jeunes adultes. Le magazine Weekly Manga Action est alors créé en 1967, et le magazine Big
+                        Comic suit l'année suivante. De nombreux artistes de gekiga décident alors de se lancer dans le seinen, tandis que les librairies de prêts sont sur le déclin. Le style narratif et graphique 
+                        du seinen sont généralement plus réalistes, avec une utilisation plus approfondie de la trame, des traits plus travaillés, une recherche plus poussée dans la mise en page, mais emprunte 
+                        également des codes instaurés quelques années auparavant par Osamu Tezuka dans les manga shōnen, ce qui rend la frontière entre ces deux types assez floue, d'autant que les thèmes abordés 
+                        sont les mêmes, allant du sport à la science-fiction en passant par les récits historiques ou la comédie.                    
+                        Pour bien différencier les cibles éditoriales, les éditeurs lancent de nombreux magazines spécialisés dans une seule tranche d'âge et de sexe ; pour le seinen, de nombreux magazines avec le
+                        terme « young » voient le jour, comme Weekly Young Jump, Weekly Young Sunday, Weekly Young Magazine et bien d'autres. De plus, les seinen comportent généralement moins de furigana à côté des
+                        kanji, signe que la personne est plus mature. D'autres magazines deviennent populaires par la suite, comme Ultra Jump, Big Comic Spirits, Morning ou Monthly Afternoon.
+                </div>
+                
+                <button class="boule_shojo" onclick="shojo()">Shojo</button>
+
+                    <div id="display_shojo" style="display:none;">Le shōjo manga (少女漫画?, litt. « bande dessinée pour fille ») est une catégorie éditoriale du manga, aussi parfois qualifié de « genre », qui cible un
+                        public féminin, adolescent ou jeune adulte. Elle est avec le shōnen manga et le seinen manga, l'une des trois principales catégories éditoriales du manga. Le shōjo manga est traditionnellement 
+                        publié dans des magazines de prépublication de manga dédiés, qui peuvent se spécialiser sur une tranche d'âge du lectorat ou sur un genre narratif.<br>
+
+                        En dehors de son lectorat cible, il n'y a pas de définition stricte de ce que peut être le shōjo manga, mais il existe des codes esthétiques, visuels et narratifs qui lui sont associés et qui 
+                        évoluent dans le temps, bien qu'aucun ne soit strictement exclusif ni systématique au shōjo. De même la plupart des genres narratifs (science-fiction, policier, etc.) sont couverts par la 
+                        catégorie, mais certains sont plus proéminents que d'autres, tels que la romance ou l'horreur.</br>
+                    
+                        Le shōjo manga puise ses racines dans la culture shōjo, pour filles, de la première moitié du xxe siècle, que ce soit avec la littérature du shōjo shōsetsu, du théâtre de la revue Takarazuka 
+                        ou des illustrations de la peinture lyrique. Alors balbutiant lors de cette première moitié de siècle, il se développe grandement à partir des années 1960 et devient l'une des pierres angulaires
+                        de la culture shōjo. Le développement et la diversication de cette catégorie éditoriale fait émerger d'autres catégories dérivées du shōjo manga, avec notamment le ladies' comics pour les femmes
+                        adultes, le boys' love manga centré sur les relations gay ainsi que le teens' love manga centré sur le contenu érotique pour filles et femmes.
+                
+                    </div>
+                </div>
+
+                <button class="boule_artbooks" onclick="artbooks()">Artbooks</button>
+
+                    <div id="display_artbooks" style="display:none;">
+                    
+                    <img src="../code/images/artbooks/blackbutler.jpg"/>
+                    hechzoeinioenviozenvi zifef,oezjfpoze,f ef,oeafpihezoivfnzeomnvao rzfnvrzenv rv
+                    ekjfbzenfoizenfoi zenvns vrneivnrznvozrnvozrn v rionfvpizenvclz,evjzrejkvze
+                    ekncvoidsnvsdnkvjbsdjkcn,pepofnazeoifhbieusvbnzrvnrzvnizovjgopzre,gzrhv
+                    ekbozenvqbovnrinvklk,psqjfoe fezhvlqebkvjqzrvnzrnvebubvzerjfhtnf ezf
+                
+                
+                    </div>
+                
+                <button class="boule_liseuse" onclick="liseuse()">Liseuse</button>
+
+                    <div id="display_liseuse" style="display:none;">
+
+                        <img src="../code/images/scans/air_gear1.jpg"/>
+                        <img src="../code/images/scans/air_gear2.jpg"/>
+                        <img src="../code/images/scans/air_gear3.jpg"/>
+                        <img src="../code/images/scans/air_gear4.jpg"/>
+                        <img src="../code/images/scans/air_gear5.jpg"/>
+
+
+                    </div>
+
+                <button class="boule_videos" onclick="videos()">Vidéos</button>
+                    
+                    <div id="display_videos" style="display:none;">
+                                          
+                        <video width="320" height="240" controls autoplay>
+                            <source src="./images/videos/chihiro.mp4" type=video/mp4>
+                        </video>             
+                                                   
+                    </div>
                                     
             </div>
             
@@ -68,9 +160,9 @@
                 
             <div class="boules_bottom">
                     
-                <button class="boule_liseuse">Liseuse</button>
-                <button class="boule_videos">Vidéos</button>
-                <button class="boule_artbooks">Artbooks</button>
+                
+                
+                
                 
             </div>
 
@@ -78,10 +170,10 @@
             
             <div class="design_persos_petits">
                 
-                <img class="jiraya" src = "../code/images/personnages/giraya_petit02.png"/>
-                <img class="goku" src = "../code/images/personnages/goku_petit01.png"/>
-                <img class="natsu" src = "../code/images/personnages/natsu01.png"/>
-                <img class="ken" src = "../code/images/personnages/ken.png"/>
+                <img class="jiraya" src = "./images/personnages/jiraya_sur_crapaud.png" alt="jiraya from naruto"/>
+                <img class="goku" src = "../code/images/personnages/goku_petit01.png" alt="goku from dbz"/>
+                <img class="natsu" src = "../code/images/personnages/natsu01.png" alt="natsu from Fairy Tail"/>
+                <img class="ken" src = "../code/images/personnages/ken.png" alt="kenshiro from Hokuto No Ken"/>
 
             </div>
                        
