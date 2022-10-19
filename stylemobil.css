@@ -2,33 +2,29 @@
     margin:0;
     padding:0;
   }
+  :root {
+    --main-color: rgba(189,37,27,1);
+    --title-font-size: 26px;
+  }
 /*...........................................main..................................*/
-
 .main_container {
    display: grid; 
-
    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-   
    gap: 0px;
    width:100%;
-   height: 100vh;
-   
+   height: 100vh; 
 }
 #background {
-
     background-image: url("/images/décor/fond-principal.png");
     background-repeat: no-repeat;
     background-size: cover;
     grid-row-start: 2;
     grid-column-start: 1;
     grid-row-end: 8;
-    grid-column-end: 9;
-    
+    grid-column-end: 9; 
  }
-  
 #corner_left {
-
    background-image: url("/images/décor/corner_left.png"); 
    grid-row-start: 2;
    grid-column-start: 1;
@@ -37,11 +33,8 @@
    order: 2;
    background-repeat: no-repeat;
    background-size: contain;
-   
 }
-
 #corner_right {
-
    background-image: url("/images/décor/coin_droit.png"); 
    background-repeat: no-repeat;
     background-size: contain;
@@ -51,10 +44,8 @@
     grid-column-end: 9;
     order: 2;
     background-position: bottom;
-   
 }
 #shenron {
-
    background-image: url("images/shenron.png");
    grid-row-start: 2;
    grid-column-start: 1;
@@ -62,51 +53,39 @@
    grid-column-end: 9;
    background-size: contain;
    background-repeat: no-repeat;
-   background-position: center;
-   
-   
+   background-position: center; 
 }
 #header{
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    background-color: rgba(189,37,27,1); 
+    background-color: var(--main-color); 
     grid-row-start: 1;
     grid-column-start: 1;
     grid-row-end: 2;
     grid-column-end: 9;   
-     width:100%;
-   
+     width:100%; 
 }
 #footer {
-
-   background-color: rgba(189,37,27,1);
+   background-color: var(--main-color);
    grid-row-start: 8;
    grid-column-start: 1;
-
    grid-row-end: 9;
    grid-column-end: 9;
    width:100%;
-   flex-direction: column;
-   
-   
+   flex-direction: column;  
 }
-
 .main{
     display:flex;
     flex-direction: column;
 }
-
 .mainTitle{
     text-align: center;
     font-size: 26px;
     color: aliceblue;
 }
-
-
 /*....................................erza.....................................*/
-
 #erza{
     width:8rem;
     height:7rem;
@@ -116,9 +95,7 @@
     border: none;
     z-index: 2;    
 }
-
 /*...................................ikki.......................................*/
-
 #ikki{
     width:8rem;
     height:7rem;
@@ -128,171 +105,140 @@
     border: none;
     z-index: 2;
 }
-
 /*..................................top balls....................................*/
 .boules_top{
     position: absolute;
     top: 6rem;
     left: 0px;
 }
-.boule_auteur {
+.boule {
     width: 6rem;
     height: 6rem;
-    background: url("../images/décor/boule 1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 8.5rem;
-    opacity: 1;
-    position: relative;
-    left: 12rem;
-    top: -2rem;
     overflow: hidden;
     border: none;
     z-index: 2;
     font-size: 15px;
     font-weight: bold;
-    font-weight: bold;
     text-shadow: -1px 1px 0px #fafafa;
-    
 }
-.boule_shonen {
-    width: 6rem;
-    height: 6rem;
+/************************************ id boules ..................................*/
+#auteur {   
+    background: url("../images/décor/boule 1.png");
+    background-size: 8.5rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
+    position: relative;
+    left: 0.5rem;
+    top: -1rem;     
+}
+#shonen {
     background: url("../images/décor/boule 2.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 5rem;
     opacity: 1;
     position: relative;
-    top: -1rem;
-    left: 0rem;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
-    font-size: 15px;
-    font-weight: bold;
-    font-weight: bold;
-    text-shadow: -1px 1px 0px #fafafa;
-    
+    top: 23rem;
+    left: -5.5rem;  
 }
-.boule_seinen {
-    width: 6rem;
-    height: 6rem;
+#seinen {
     background: url("../images/décor/boule 3.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 9rem;
     opacity: 1;
     position: relative;
-    top: 2rem;
-    left: -11rem;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
-    font-size: 15px;
-    font-weight: bold;
-    font-weight: bold;
-    text-shadow: -1px 1px 0px #fafafa;
-    
+    top: 29rem;
+    left: -12.5rem;    
 }
-.boule_shojo {
-    width: 6rem;
-    height: 6rem;
+#shojo {
     background: url("../images/décor/boule 4.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 9rem;
     opacity: 1;
     position: absolute;
-    top: 7.5rem;
-    left: 0rem;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
-    font-size: 15px;
-    font-weight: bold;
-    font-weight: bold;
-    text-shadow: -1px 1px 0px #fafafa;
-    
+    top: 33rem;
+    left: 4rem;    
 }
-/*..................................bottom balls....................................*/
-.boule_liseuse {
-    width: 6rem;
-    height: 6rem;
+#liseuse {
     background: url("../images/décor/boule 5.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 6rem;
+    background-size: 5.5rem;
     opacity: 1;
     position: absolute;
-    top: 28rem;
-    left: 20rem;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
-    font-size: 15px;
-    font-weight: bold;
-    text-shadow: -1px 1px 0px #fafafa;
+    top: 29rem;
+    left: 19rem;
 }
-.boule_videos {
+#videos {
     width: 9rem;
     height: 9rem;
     background: url("../images/décor/boule 6.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 6rem;
+    background-size: 5.5rem;
     opacity: 1;
     position: absolute;
-    top: 32.5rem;
-    left: 16rem;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
-    font-size: 15px;
-    font-weight: bold;
-    text-shadow: -1px 1px 0px #fafafa;
+    top: 33.5rem;
+    left: 18rem;
 }
-
-.boule_artbooks {
+#artbooks {
     width: 9rem;
     height: 9rem;
     background: url("../images/décor/boule 7.png");
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 6rem;
+    background-size: 5.5rem;
     opacity: 1;
     position: absolute;
-    top: 38rem;
+    top: 37rem;
     left: 13rem;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
-    font-size: 15px;
-    font-weight: bold;
-    text-shadow: -1px 1px 0px #fafafa;
 }
-/*......................persos sur nuages..................*/
-
+/*.....................................persos sur nuages................................*/
 .design_persos_petits{
     display: flex;
     justify-content: space-around;
 }
-
-.jiraya{
-    width: 9rem;
-    height: 9rem;       
-    opacity: 1;
-    position: absolute;
-    top: 46rem;
-    left: 13rem;
+.petits {
     overflow: hidden;
     border: none;
     z-index: 2;
 }
-
-
+#jiraya{
+    width: 6rem;
+    height: 7rem;       
+    opacity: 1;
+    position: absolute;
+    top: 45rem;
+    left: 0rem;    
+}
+#goku{    
+    width: 6rem;
+    height: 7rem;
+    opacity: 1;
+    position: absolute;
+    top: 45rem;
+    left: 7rem;
+}
+#natsu{
+    width: 9rem;
+    height: 8rem;
+    opacity: 1;
+    position: absolute;
+    top: 44.5rem;
+    left: 12rem;
+}
+#ken{
+    width: 5rem;
+    height: 8rem;
+    opacity: 1;
+    position: absolute;
+    top: 44rem;
+    left: 20rem;
+}
 /*......................footer..................*/
-
 #footer{
     background-color: rgba(189,37,27,1);
     grid-row-start: 8;
@@ -304,17 +250,13 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    
 }
-
 .buttons_footer{
     display:flex;
     justify-content: space-around;
     z-index: 2;
 }
-
 /*..........................design nuages..........................*/
-
 .design_nuages{
     display: flex;
     justify-content: space-around;
@@ -331,41 +273,24 @@
     border: none;
     z-index: 2;
 }
-.nuages1{
-    width: 5rem;
-    height: 4rem;
-    background: url("../images/décor/nuage01.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1rem;
-    opacity: 1;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
-}
-.nuages2{
-    width: 5rem;
-    height: 4rem;
-    background: url("../images/décor/nuage01.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1rem;
-    opacity: 1;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
-}
-.nuages3{
-    width: 5rem;
-    height: 4rem;
-    background: url("../images/décor/nuage01.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1rem;
-    opacity: 1;
-    overflow: hidden;
-    border: none;
-    z-index: 2;
+/*....................................display buttons.......................*/
+#display_auteur{
+    background-color: antiquewhite;
+    max-height:35vh;
+    max-width: 50vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin:auto;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 20vh;
+    left: 1vh;
+    right: -12.1vh;
 }
 #display_shonen{
     background-color: antiquewhite;
@@ -374,12 +299,18 @@
     border-style: double;
     border-radius: 5%;
     border-color: black;
-    z-index: 3;
     margin:auto;
     text-align: justify;
     overflow: scroll;
     padding: 5px;
     z-index: 10;
+    position:absolute;
+    top:20%;
+    z-index: 10;
+    position: absolute;
+    top: 20vh;
+    left: 1vh;
+    right: -12.1vh;
 }
 #display_seinen{
     background-color: antiquewhite;
@@ -388,56 +319,441 @@
     border-style: double;
     border-radius: 5%;
     border-color: black;
-    z-index: 3;
     margin:auto;
     text-align: justify;
     overflow: scroll;
     padding: 5px;
     z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 20vh;
+    left: 1vh;
+    right: -12.1vh;
 }
 #display_shojo{
     background-color: antiquewhite;
     max-height:35vh;
     max-width: 50vh;
-    border-style: double;
+    border-style: solid;
     border-radius: 5%;
     border-color: black;
-    z-index: 3;
     margin:auto;
     text-align: justify;
     overflow: scroll;
     padding: 5px;
     z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 20vh;
+    left: 1vh;
+    right: -12.1vh;
 }
+/*..............................container artbook.........................*/
+.container_artbooks{
+    display:grid;
+    grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+    grid-template-columns: 7rem 7rem 7rem;
+    grid-row-gap: 2%;
+    grid-column-gap: 2%;
+    height: 50vh;
+    overflow:scroll;
+}
+ #artbooks1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style:solid;
+ }
+ #artbooks2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style:solid;
+ }
+ #artbooks3 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 2;
+    grid-column-end: 4;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style:solid;
+ }
+ #artbooks4 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;
+ }
+ #artbooks5 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;
+ }
+ #artbooks6 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 4;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;
+ }
+ #artbooks7 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 2;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;
+ }
+ #artbooks8 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-row-end: 4;
+    grid-column-end: 3;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;
+ }
+ #artbooks9 {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-row-end: 4;
+    grid-column-end: 4;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;
+ }
+ #artbooks10 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 2;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;
+ }
+ #artbooks11 {
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-row-end: 5;
+    grid-column-end: 3;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid; 
+ }
+ #artbooks12 {
+    grid-row-start: 4;
+    grid-column-start: 3;
+    grid-row-end: 5;
+    grid-column-end: 4;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid; 
+ }
+ #artbooks13 {
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-row-end: 6;
+    grid-column-end: 2;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid; 
+ }
+ #artbooks14 {
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-row-end: 6;
+    grid-column-end: 3;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;   
+ }
+ #artbooks15 {
+    grid-row-start: 5;
+    grid-column-start: 3;
+    grid-row-end: 6;
+    grid-column-end: 4;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid; 
+ }
+ #artbooks16 {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-row-end: 7;
+    grid-column-end: 2;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid; 
+ }
+ #artbooks17 {
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-row-end: 7;
+    grid-column-end: 3;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;   
+ }
+ #artbooks18 {
+    grid-row-start: 6;
+    grid-column-start: 3;
+    grid-row-end: 7;
+    grid-column-end: 4;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid; 
+ }
+ #artbooks19 {
+    grid-row-start: 7;
+    grid-column-start: 1;
+    grid-row-end: 8;
+    grid-column-end: 2;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;  
+ }
+ #artbooks20 {
+    grid-row-start: 7;
+    grid-column-start: 2;
+    grid-row-end: 8;
+    grid-column-end: 3;
+    height: 7rem;
+    width: 7rem;;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;   
+ }
+ #artbooks21 {
+    grid-row-start: 7;
+    grid-column-start: 3;
+    grid-row-end: 8;
+    grid-column-end: 4;
+    height: 7rem;
+    width: 7rem;
+    border-color: black;
+    border-radius: 5%;
+    border-style: solid;   
+ }
 #display_artbooks{
     background-color: antiquewhite;
-    max-height:35vh;
+    max-height: 80vh;
     max-width: 50vh;
     border-style: double;
     border-radius: 5%;
     border-color: black;
-    z-index: 3;
-    margin:auto;
+    margin: auto;
     text-align: justify;
     overflow: scroll;
     padding: 5px;
     z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 10vh;
+    left: 0.5vh;
+    right: 0.5vh;
 }
+/*....................................container liseuse.....................*/
 #display_liseuse{
     background-color: antiquewhite;
-    max-height:35vh;
+    max-height: 76vh;
+    max-width: 50vh;
+    border-style: double;
+    border-radius: 3%;
+    border-color: black;
+    margin: auto;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 20vh;
+    left: 0vh;
+    right: 0vh;
+}
+/*.......................................container videos...............................*/
+#display_videos{
+    background-color: antiquewhite;
+    max-height:65vh;
     max-width: 50vh;
     border-style: double;
     border-radius: 5%;
     border-color: black;
-    z-index: 3;
     margin:auto;
     text-align: justify;
     overflow: scroll;
     padding: 5px;
     z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 23vh;
+    left: 0vh;
+    right: 0vh;
 }
+.container_videos{
+    background-image: url("./images/gallerie/groupe2.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: auto;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5%;   
+}
+/*......................................videos chihiro................*/
+#titre_chihiro{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-shadow: 1px 1px 1px black;
+}
+.videos_chihiro{
+    border: double black;
+    border-radius: 5%;
+    color: var(--main-color);
+    background-color: antiquewhite;
+    margin-bottom: 2%;
+}
+/*........................................videos air gear............*/
 
+.titre_videos{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-shadow: 1px 1px 1px black;
+}
+.videos_design{
+    border: double black;
+    border-radius: 5%;
+    color: var(--main-color);
+    background-color: antiquewhite;
+    margin-bottom: 2%;
+}
+/*..............................slider liseuse..........................................*/
+#slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#precedent,
+#suivant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+#precedent {
+    left: 0;
+}
+#suivant {
+    right: 0;
+}
+#slider:hover #precedent,
+#slider:hover #suivant {
+    opacity: 1;
+}
+.images_slider{
+    width:100%;
+    height:100%;
+}
+.fermeture{
+    border-radius: 50%;
+    border-color: rgb(0 0 0 / 80%);
+    border-style: double;
+    border-width: medium;
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../images/personnages/happy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-style: double black;
+    font-size: 24px;
+    z-index: 15;
+}
+.artbooksize{
+    background-color: antiquewhite;
+    max-height: 76vh;
+    max-width: 44vh;
+    border-style: double;
+    border-radius: 3%;
+    border-color: black;
+    margin: auto;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 20vh;
+    left: 0vh;
+    right: 0vh;
+    display:none;
+}
 
 
 
