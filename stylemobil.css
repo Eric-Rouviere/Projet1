@@ -754,8 +754,143 @@
     right: 0vh;
     display:none;
 }
+/*.......................................media querys .......................................*/
 
+@media screen and (min-width: 375px) and (max-width:480px) {
 
-
-
-
+#erza {
+        width: 7rem;
+        height: 5rem;
+}
+#ikki {
+    width: 7rem;
+    height: 5rem;
+}
+#auteur {
+    background-size: 6.5rem;
+    position: relative;
+    left: 0.5rem;
+    top: -2rem;
+    font-size: 12px;
+}
+#display_auteur {
+    max-height: 45vh;
+    max-width: 48vh;
+    position: absolute;
+    top: 0vh;
+    left: 1vh;
+    right: -12.1vh;
+}
+#shonen {
+    background-size: 4rem;
+    position: relative;
+    top: 13.5rem;
+    left: -4.5rem;
+}
+#display_shonen {
+    max-height: 45vh;
+    max-width: 48vh;
+    position: absolute;
+    top: 20%;
+    z-index: 10;
+    position: absolute;
+    top: 0vh;
+    left: 1vh;
+    right: -12.1vh;
+}
+#seinen {
+    background-size: 7rem;
+    position: relative;
+    top: 17.3rem;
+    left: -13rem;
+}
+#display_seinen {
+    max-height: 46vh;
+    max-width: 48vh;
+    position: absolute;
+    top: 0vh;
+    left: 1vh;
+    right: -12.1vh;
+}
+#shojo {
+    background-size: 7rem;
+    position: absolute;
+    top: 19.5rem;
+    left: 3.5rem;
+}
+#artbooks {
+    background-size: 4rem;
+    position: absolute;
+    top: 23.5rem;
+    left: 12.5rem;
+}
+#videos {
+    background-size: 4rem;
+    position: absolute;
+    top: 21.5rem;
+    left: 16.5rem;
+}
+#liseuse {
+    background-size: 4rem;
+    position: absolute;
+    top: 19.5rem;
+    left: 15.5rem;
+}
+#jiraya {
+    width: 5rem;
+    height: 6rem;
+    position: absolute;
+    top: 31.5rem;
+    left: 0.5rem;
+}
+#goku {
+    width: 6rem;
+    height: 7rem;
+    position: absolute;
+    top: 30.5rem;
+    left: 6rem;
+}
+#natsu {
+    width: 9rem;
+    height: 8rem;
+    position: absolute;
+    top: 30rem;
+    left: 10rem;
+}
+#ken {
+    width: 4rem;
+    height: 7rem;
+    position: absolute;
+    top: 30.5rem;
+    left: 18.5rem;
+}
+.nuages {
+    height: 3rem;
+}
+#display_videos {
+    max-height: 77vh;
+    max-width: 56vh;
+    position: absolute;
+    top: 14vh;
+    left: 0vh;
+    right: 0vh;
+}
+.container_videos {
+    height: 72vh;
+}
+.container_artbooks {
+    height: 76vh;
+}
+#display_artbooks {
+    max-height: 81vh;
+    max-width: 56vh;
+}
+#display_liseuse {
+    max-height: 89vh;
+    max-width: 56vh;
+    position: absolute;
+    top: 8vh;
+    left: 0vh;
+    right: 0vh;
+}
+}
