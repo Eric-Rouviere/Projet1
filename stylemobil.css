@@ -196,6 +196,7 @@
     top: 37rem;
     left: 13rem;
 }
+
 /*.....................................persos sur nuages................................*/
 .design_persos_petits{
     display: flex;
@@ -206,15 +207,15 @@
     border: none;
     z-index: 2;
 }
-#jiraya{
+/*#jiraya{
     width: 6rem;
     height: 7rem;       
     opacity: 1;
     position: absolute;
     top: 45rem;
     left: 0rem;    
-}
-#goku{    
+}*/
+/*#goku{    
     width: 6rem;
     height: 7rem;
     opacity: 1;
@@ -237,7 +238,7 @@
     position: absolute;
     top: 44rem;
     left: 20rem;
-}
+}*/
 /*......................footer..................*/
 #footer{
     background-color: rgba(189,37,27,1);
@@ -754,6 +755,230 @@
     right: 0vh;
     display:none;
 }
+/*....................................boutons petits persos..................................*/
+#display_gallerie{
+    background-color: antiquewhite;
+    max-height: 73vh;
+    max-width: 55vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 13vh;
+    left: 0vh;
+    right: 0vh;
+}
+.container_gallerie{
+    display: flex;
+    background-color: antiquewhite;
+    max-height: 65vh;
+    max-width: 50vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.button_jiraya{
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
+}
+#display_votreavis{
+    background-color: antiquewhite;
+    max-height: 73vh;
+    max-width: 55vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 13vh;
+    left: 0vh;
+    right: 0vh;
+}
+.container_votreavis{
+    display: flex;
+    background-image: url("./images/décor/montagne\ trou.jpg");
+    background-repeat: no-repeat;
+    max-height: 65vh;
+    max-width: 50vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.button_goku{
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
+}
+#display_collection{
+    background-color: antiquewhite;
+    max-height: 75vh;
+    max-width: 55vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 13vh;
+    left: 0vh;
+    right: 0vh;
+}
+.container_collection{
+    display: flex;
+    background-image: url("./images/gallerie/groupe3.jpg");
+    background-repeat: no-repeat;
+    max-height: 65vh;
+    max-width: 50vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.button_natsu{
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
+}
+.container_liste{
+    background-color: antiquewhite;
+    max-height: 73vh;
+    max-width: 55vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    z-index: 10;
+    position: relative;
+    top: 7vh;
+    left: 0vh;
+    right: 0vh;
+}
+ul {
+    list-style-type: circle;
+    list-style: inside;
+}
+li{
+    padding-bottom: 1%;
+}
+h2{
+    color:var(--main-color);
+    margin-bottom: 3%;
+}
+#display_contacts{
+    background-color: antiquewhite;
+    max-height: 73vh;
+    max-width: 55vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    text-align: justify;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    z-index: 10;
+    position: absolute;
+    top: 13vh;
+    left: 0vh;
+    right: 0vh;
+}
+.container_contacts{
+    display: flex;
+    background-image: url("./images/gallerie/groupe.jpeg");
+    background-repeat: no-repeat;
+    max-height: 65vh;
+    max-width: 50vh;
+    border-style: double;
+    border-radius: 5%;
+    border-color: black;
+    margin: auto;
+    overflow: scroll;
+    padding: 5px;
+    z-index: 10;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+.button_ken{
+    width: 6rem;
+    height: 7rem;
+    overflow: hidden;
+    border: none;
+    z-index: 2;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: -1px 1px 0px #fafafa;
+}
+.gallerie_img{
+    border-style: double;
+    border-radius: 1%;
+    border-color: black;
+    margin-bottom: 1%;
+}
+
 /*.......................................media querys .......................................*/
 
 @media screen and (min-width: 375px) and (max-width:480px) {
@@ -837,32 +1062,44 @@
     left: 15.5rem;
 }
 #jiraya {
-    width: 5rem;
-    height: 6rem;
-    position: absolute;
-    top: 31.5rem;
-    left: 0.5rem;
+    background: url("./images/personnages/jiraya_sur_crapaud.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 5rem;
+    opacity: 1;
+    position: relative;
+    top: -9rem;
+    left: 0rem;
 }
 #goku {
-    width: 6rem;
-    height: 7rem;
-    position: absolute;
-    top: 30.5rem;
-    left: 6rem;
+    background: url("./images/personnages/goku_petit01.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 5rem;
+    opacity: 1;
+    position: relative;
+    top: -9rem;
+    left: 0rem;
 }
 #natsu {
-    width: 9rem;
-    height: 8rem;
-    position: absolute;
-    top: 30rem;
-    left: 10rem;
+    background: url("./images/personnages/natsu01.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 7rem;
+    opacity: 1;
+    position: relative;
+    top: -9rem;
+    left: 0rem;
 }
 #ken {
-    width: 4rem;
-    height: 7rem;
-    position: absolute;
-    top: 30.5rem;
-    left: 18.5rem;
+    background: url("./images/personnages/ken.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 3rem;
+    opacity: 1;
+    position: relative;
+    top: -9.5rem;
+    left: 0rem;
 }
 .nuages {
     height: 3rem;
@@ -894,3 +1131,115 @@
     right: 0vh;
 }
 }
+.card {
+    width: 95%;
+    border-radius: 12px;
+    position: relative;
+}
+      
+.card h2 {
+    color: var(--main-color);
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #ffffff;
+}
+      
+.card .row {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid: auto / auto auto;
+}
+      
+.card .row .col {
+    position: relative;
+    width: 100%;
+    margin: 30px 20px 40px 0;
+    transition: 0.5s;
+}
+      
+.card .row .form-group {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    text-shadow: 2px 1px 0 #ffffff;
+}
+      
+.card .row .form-group input,
+.card .row .form-group textarea {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background: #ffffff;
+    outline: none;
+    font-size: 24px;
+    padding: 2px 0 5px 9px;
+    border: 3px double black;
+    box-shadow: 3px 3px 0 var(--main-color);
+    color: var(--main-color);
+    border-radius: 50px;
+}
+      
+.card .row .form-group label {
+    line-height: 40px;
+    color:var(--main-color);
+    font-size: 24px;
+    margin: 0 0 0 30px;
+    display: block;
+    pointer-events: none;
+}
+      
+.row .col:nth-child(6) {
+    margin-top: 64px;
+}
+      
+.card .row .form-group input:focus,
+.card .row .form-group textarea:focus {
+    border: 5px solid #ffffff;
+    transition: all 0.5s;
+}
+      
+.card .row input[type="submit"] {
+    border: 3px double black;
+    box-shadow: 5px 5px 0 var(--main-color);
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    outline: none;
+    background: #ffffff;
+    text-transform: uppercase;
+    color: var(--main-color);
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 45px;
+    transition: all 0.4s;
+}
+      
+.card .row input[type="submit"]:hover {
+    border: 5px solid rgba(255, 255, 255, 1);
+    color: var(--main-color);
+    transition: all 0.4s;
+}
+
+      
+@media screen and (max-width: 900px) {
+    .card .row {
+        grid-template-columns: repeat(auto-fit,minmax(70%, 1fr));
+    }
+        
+    .card {
+        padding: 4px;
+    }
+        
+    .card h2 {
+        font-size: 34px;
+    }
+        
+    .card .row input[type="submit"] {
+        width: 100%;
+    }
+}
+      

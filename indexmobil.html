@@ -37,16 +37,17 @@
                         <img class="nuages" src = "../images/décor/nuage01.png"/>
                         <img class="nuages" src = "../images/décor/nuage01.png"/>
                         <img class="nuages" src = "../images/décor/nuage01.png"/>
-        
+                        
+                               
                     </div>
 
                 <!--..............................boutons_footer............................-->
                
                     <div class="buttons_footer">
 
-                        <button class="gallerie">Gallerie </button>
-                        <button class="vos_heros">Vos héros</button>
-                        <button class="ma_collection">Ma collection</button>
+                        <button class="gallerie">Galleries</button>
+                        <button class="vos_heros">Votre avis</button>
+                        <button class="ma_collection">Collection</button>
                         <button class="contacts">Contacts</button>
                     
                     </div>
@@ -386,11 +387,181 @@
             <!-- .......................... bottom_characters............................................-->
             
             <div class="design_persos_petits">                
-                <img class="petits" id="jiraya" src = "./images/personnages/jiraya_sur_crapaud.png" alt="jiraya from naruto"/>
-                <img class="petits" id="goku" src = "./images/personnages/goku_petit01.png" alt="goku from dbz"/>
-                <img class="petits" id="natsu" src = "./images/personnages/natsu01.png" alt="natsu from Fairy Tail"/>
-                <img class="petits" id="ken" src = "./images/personnages/ken.png" alt="kenshiro from Hokuto No Ken"/>
+                <button class="button_jiraya" id="jiraya" onclick="gallerie()"></button>
+                
+                <div id="display_gallerie" style="display:none;">
+                    <button class="fermeture" onclick="fermeture_gallerie()"></button>
+                    <div class="container_gallerie">
+                        <h2>Gallerie d'images</h2>
+                        <img class="gallerie_img" src="./images/gallerie/attaque_titans.png"/>
+                        <img class="gallerie_img" src="./images/gallerie/dbz_alignes.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/deathnote.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/fairytail.png">
+                        <img class="gallerie_img" src="./images/gallerie/groupe.jpeg"/>
+                        <img class="gallerie_img" src="./images/gallerie/groupe2.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/hunterxhunter.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/titansattack.jpg"/>
+                        <img class="gallerie_img" src="./images/personnages/cobra groupe.jpg"/>
+                        <img class="gallerie_img" src="./images/personnages/fond ecran persos.jpg"/>
+                        <img class="gallerie_img" src="./images/personnages/natsu grey lucy.jpg"/>
+                        <img class="gallerie_img" src="./images/personnages/saint seya groupe.png"/>
+                        <img class="gallerie_img" src="./images/gallerie/groupe4.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/groupe6.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/groupe7.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/psycho-pass.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/groupe8.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/groupe9.jpg"/>
+                        <img class="gallerie_img" src="./images/gallerie/groupe10.jpg"/>                                         
+                    </div>
+                </div>
+
+                <button class="button_goku" id="goku" onclick="votreavis()"></button>
+                
+                <div id="display_votreavis" style="display:none;">
+                    <button class="fermeture" onclick="fermeture_votreavis()"></button>
+                    <div class="container_votreavis">
+                        <form>
+                          <div class="card">
+                            <h2>A vous de jouer</h2>
+                            <div class="row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Votre style de Manga</label>
+                                  <input type="text">
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Votre Manga</label>
+                                  <input type="text">
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Votre Héros</label>
+                                  <input type="text">
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Votre Mangaka</label>
+                                  <input type="text">
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Votre Animé</label>
+                                  <textarea></textarea>
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <input type="submit" value="Submit">
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+
+                    </div>
+                </div>
+
+                <button class="button_natsu" id="natsu" onclick="collection()"></button>
+                
+                <div id="display_collection" style="display:none;">
+                    <button class="fermeture" onclick="fermeture_collection()"></button>
+                    <div class="container_collection">
+                        <div class="container_liste">
+                        <h2>Ma collection</h2>
+                        <ul>
+                            <li>Naruto 72 Vol. (Complet)</li>
+                            <li>Fairy Tail 63 Vol. (Complet)</li>
+                            <li>Yu Gi Oh 38 Vol. (Complet)</li>
+                            <li>DragonBall 42 Vol. (Complet)</li>
+                            <li>Samuraï Deeper Kyo 38 Vol. (Complet)</li>
+                            <li>Death Note 13 Vol. (Complet)</li>
+                            <li>GTO 25 Vol. (Complet)</li>
+                            <li>GTO 14 Days Of Shonan 9 Vol. (Complet)</li>
+                            <li>Gto Paradise Lost 11 Vol. (En cours...)</li>
+                            <li>Hokuto No Ken 27 Vol. (Complet)</li>
+                            <li>Saint Seya 28 Vol. (Complet)</li>
+                            <li>Saint Seya The Lost Canvas 25 Vol. (Complet)</li>
+                            <li>Vagabond 35 Vol. (Complet)</li>
+                            <li>Rainbow 13 Vol. (En cours...)</li>
+                            <li>Psychometer Eiji  25 Vol. (Complet)</li>
+                            <li>Übel Blatt 23 Vol. (Complet)</li>
+                            <li>Ai Gear 37 Vol. (Complet)</li>
+                            <li>Angel Sanctuary 20 Vol. (Complet)</li>
+                            <li>Tokko 3 Vol. (Complet)</li>
+                            <li>Doubt 4 Vol. (Complet)</li>
+                            <li>Bleach 25 Vol. (En cours...)</li>
+                            <li>Macross 7 Vol. (Complet)</li>
+                            <li>Love Hina 14 Vol. (Complet)</li>
+                            <li>The Arm Speedler 7 Vol. (En cours...)</li>
+                            <li>Parasite 6 Vol. (Complet)</li>
+                            <li>Blood Sucker 8 Vol. (Complet)</li>
+                            <li>X Clamp 7 Vol. (En cours...)</li>
+                            <li>3x3 Eyes 10 Vol. (En cours...)</li>
+                            <li>Kimengumi 5 Vol. (En cours...)</li>
+                            <li>Full metal alchimist 9 Vol. (Complet)</li>
+                            <li>Cafe Occult 6 Vol. (Complet)</li>
+                        </ul>
+                        </div>
+                                                 
+                    </div>
+                </div>
+
+                <button class="button_ken" id="ken" onclick="contacts()"></button>
+                
+                <div id="display_contacts" style="display:none;">
+                    <button class="fermeture" onclick="fermeture_contacts()"></button>
+                    <div class="container_contacts">
+                        <form>
+                          <div class="card">
+                            <h2>Contacts</h2>
+                            <div class="row">
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Identifiant</label>
+                                  <input type="text">
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Email</label>
+                                  <input type="text">
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Confirmation Email</label>
+                                  <input type="text">
+                                </div>
+                              </div>                          
+                                                     
+                              <div class="col">
+                                <div class="form-group">
+                                  <label>Votre Message</label>
+                                  <textarea></textarea>
+                                </div>
+                              </div>
+                          
+                              <div class="col">
+                                <input type="submit" value="Submit">
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+
+                    </div>
+                </div>
             </div>
+
                        
         </body>
 

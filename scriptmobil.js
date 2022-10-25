@@ -564,6 +564,54 @@ function fermeture_artbooks() {
   var x = document.getElementById("display_artbooks");
   x.style.display = "none";
 }
+function gallerie() {
+  var div = document.getElementById("display_gallerie");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+function fermeture_votreavis() {
+  var x = document.getElementById("display_votreavis");
+  x.style.display = "none";
+}
+function votreavis() {
+  var div = document.getElementById("display_votreavis");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+function fermeture_collection() {
+  var x = document.getElementById("display_collection");
+  x.style.display = "none";
+}
+function collection() {
+  var div = document.getElementById("display_collection");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+function fermeture_contacts() {
+  var x = document.getElementById("display_contacts");
+  x.style.display = "none";
+}
+function contacts() {
+  var div = document.getElementById("display_contacts");
+  if (div.style.display === "none") {
+    div.style.display = "block";
+  } else {
+    div.style.display = "none";
+  }
+}
+function fermeture_gallerie() {
+  var x = document.getElementById("display_gallerie");
+  x.style.display = "none";
+}
 function slider() {
   var div = document.getElementById("slider");
   if (div.style.display === "none") {
