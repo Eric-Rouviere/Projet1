@@ -1967,21 +1967,26 @@ h2{
         top: 51%;
         left: 62%;
     }
+    
+    }
     #artbooks {
         animation-duration: 1s;
         animation-name: filterartbooks;
         animation-iteration-count: infinite;
-        animation-direction: alternate;
-      }
-      
+       }
+
       @keyframes filterartbooks {
         from {
             filter: drop-shadow(2px 3px 1px white);
+            
         }
       
         to {
-            filter: drop-shadow(2px 3px 10px white)
+            filter: drop-shadow(2px 3px 10px white);
         }
+        
+        
+        
       }
     #display_artbooks {
         background-color: antiquewhite;
@@ -2024,7 +2029,7 @@ h2{
         left: 8.5%;
     }
     #jiraya {
-        animation-duration: 1s;
+        animation-duration: 0.5s;
         animation-name: saute;
         animation-iteration-count: infinite;
         animation-direction: alternate;
@@ -2119,7 +2124,7 @@ h2{
         left: 30%;
     }
     #goku {
-        animation-duration: 1s;
+        animation-duration: 0.5s;
         animation-name: sautegoku;
         animation-iteration-count: infinite;
         animation-direction: alternate;
@@ -2276,7 +2281,7 @@ h2{
         left: 60%;
     }
     #natsu {
-        animation-duration: 1s;
+        animation-duration: 0.5s;
         animation-name: sautenatsu;
         animation-iteration-count: infinite;
         animation-direction: alternate;
@@ -2411,7 +2416,7 @@ h2{
         left: 80%;
     }
     #ken {
-        animation-duration: 1s;
+        animation-duration: 0.5s;
         animation-name: sauteken;
         animation-iteration-count: infinite;
         animation-direction: alternate;
