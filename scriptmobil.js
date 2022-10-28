@@ -524,7 +524,13 @@ function seinen() {
 /*................................slider....................................*/
 
 var slide = new Array("./images/jaquettes/air_gear.jpg", "./images/scans/air_gear1.jpg", "./images/scans/air_gear2.jpg", 
-  "./images/scans/air_gear3.png","./images/scans/air_gear4.png","./images/scans/air_gear5.jpg");
+  "./images/scans/air_gear3.png","./images/scans/air_gear4.png","./images/scans/air_gear5.jpg","./images/jaquettes/fairytail1.jpg","./images/scans/fairy1.jpg",
+  "./images/scans/fairy2.jpg","./images/scans/fairy3.jpg","./images/scans/fairy4.jpg","./images/scans/fairy5.jpg","./images/jaquettes/narutojaquette.jpg","./images/scans/naruto1.jpg",
+  "./images/scans/naruto2.jpg","./images/scans/naruto3.jpg","./images/scans/naruto4.jpg","./images/scans/naruto5.jpg","./images/jaquettes/cityhunter_vol1.jpg","./images/scans/nikki1.jpg",
+  "./images/scans/nikki2.jpg","./images/scans/nikki3.jpg","./images/scans/nikki4.jpg","./images/scans/nikki5.jpg","./images/jaquettes/ChevaliersduZodiaquevol1.jpg",
+  "./images/scans/seya1.jpg","./images/scans/seya2.jpg","./images/scans/seya3.jpg","./images/scans/seya4.jpg","./images/scans/seya5.jpg","./images/jaquettes/vagabond-tome-1-vf.jpg",
+  "./images/scans/vagabond1.jpg","./images/scans/vagabond2.jpg","./images/scans/vagabond3.jpg","./images/scans/vagabond4.jpg","./images/scans/vagabond5.jpg",
+  );
 var numero = 0;
 
 function ChangeSlide(sens) {

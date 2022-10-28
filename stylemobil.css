@@ -1106,6 +1106,22 @@ h2{
         top: 8%;
         font-size: 8px;
     }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_auteur {
         font-size: 10px;
         text-align: justify;
@@ -1126,6 +1142,22 @@ h2{
         position: absolute;
         top: 12%;
         left: 19%;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_shonen {
         max-height: 50vh;
@@ -1148,6 +1180,22 @@ h2{
         top: 37%;
         left: 14%;
     }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_seinen {
         font-size: 10px;
         max-height: 50vh;
@@ -1166,6 +1214,22 @@ h2{
         position: absolute;
         top: 52%;
         left: 28%;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_shojo {
         background-color: antiquewhite;
@@ -1194,6 +1258,22 @@ h2{
         top: 10%;
         left: 65%;
     }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_liseuse {
         max-height: 91vh;
         max-width: 65vh;
@@ -1215,6 +1295,22 @@ h2{
         top: 34%;
         left: 70%;
     }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_videos {
         max-height: 93vh;
         max-width: 118vh;
@@ -1224,7 +1320,7 @@ h2{
         right: 0vh;
     }
     .container_videos {
-        background-image: url(./images/gallerie/groupe2.jpg);
+        background-image: url("./images/gallerie/groupe2.jpg");
         display: flex;
         flex-direction: column;
         height: 83vh;
@@ -1248,6 +1344,22 @@ h2{
         position: absolute;
         top: 51%;
         left: 59%;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
     }
     #display_artbooks {
         background-color: antiquewhite;
@@ -1288,7 +1400,25 @@ h2{
         position: absolute;
         top: 66%;
         left: 4.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 66%;
+          left:4.5%;
         }
+      
+        to {
+          top: 64%;
+          left:4.5%;
+        }
+    }
     .button_jiraya {
         width: 5rem;
         height: 5rem;
@@ -1367,6 +1497,46 @@ h2{
         top: 58%;
         left: 24%;
     }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 58%;
+          left:24%;
+        }
+      
+        to {
+          top: 56%;
+          left:24%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:100%
+        }
+    } 
     .button_goku {
         width: 7rem;
         height: 8rem;
@@ -1484,6 +1654,24 @@ h2{
         top: 66%;
         left: 56%;
     }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 66%;
+          left:56%;
+        }
+      
+        to {
+          top: 65%;
+          left:56%;
+        }
+    } 
     .button_natsu {
         width: 4rem;
         height: 5rem;
@@ -1601,6 +1789,24 @@ h2{
         top: 62%;
         left: 77%;
     }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 62%;
+          left:77%;
+        }
+      
+        to {
+          top: 61%;
+          left:77%;
+        }
+    } 
     .button_ken {
         width: 5rem;
         height: 6rem;
@@ -1842,7 +2048,7 @@ h2{
         animation-name: filtershojo;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-      }
+    }
       
       @keyframes filtershojo {
         from {
@@ -1885,7 +2091,7 @@ h2{
         animation-name: filterliseuse;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-      }
+    }
       
       @keyframes filterliseuse {
         from {
@@ -1895,7 +2101,7 @@ h2{
         to {
             filter: drop-shadow(2px 3px 10px white)
         }
-      }
+    }
     #display_liseuse {
         max-height: 95vh;
         max-width: 65vh;
@@ -1922,7 +2128,7 @@ h2{
         animation-name: filtervideos;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-      }
+    }
       
       @keyframes filtervideos {
         from {
@@ -1932,7 +2138,7 @@ h2{
         to {
             filter: drop-shadow(2px 3px 10px white)
         }
-      }
+    }
     #display_videos {
         max-height: 93vh;
         max-width: 118vh;
@@ -1968,12 +2174,12 @@ h2{
         left: 62%;
     }
     
-    }
+    
     #artbooks {
         animation-duration: 1s;
         animation-name: filterartbooks;
         animation-iteration-count: infinite;
-       }
+    }
 
       @keyframes filterartbooks {
         from {
@@ -1983,11 +2189,8 @@ h2{
       
         to {
             filter: drop-shadow(2px 3px 10px white);
-        }
-        
-        
-        
-      }
+        }        
+    }
     #display_artbooks {
         background-color: antiquewhite;
         max-height: 80vh;
@@ -2033,7 +2236,7 @@ h2{
         animation-name: saute;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-      }
+    }
       
       @keyframes saute {
         from {
@@ -2045,7 +2248,7 @@ h2{
           top: 70%;
           left:8.5%;
         }
-      } 
+    } 
     .button_jiraya {
         width: 5rem;
         height: 5rem;
@@ -2128,7 +2331,7 @@ h2{
         animation-name: sautegoku;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-      }
+    }
       
       @keyframes sautegoku {
         from {
@@ -2140,7 +2343,7 @@ h2{
           top: 66%;
           left:30%;
         }
-      }
+    }
     #gokunuage{
         position:absolute;
         height:8%;
@@ -2152,7 +2355,7 @@ h2{
         animation-duration: 3s;
         animation-name: gokunuage;
         animation-iteration-count: infinite;
-      }
+    }
       
       @keyframes gokunuage {
         from {
@@ -2162,7 +2365,7 @@ h2{
         to {
             left:100%
         }
-      } 
+    } 
     .button_goku {
         width: 7rem;
         height: 8rem;
@@ -2285,7 +2488,7 @@ h2{
         animation-name: sautenatsu;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-      }
+    }
       
       @keyframes sautenatsu {
         from {
@@ -2297,7 +2500,7 @@ h2{
           top: 68%;
           left:60%;
         }
-      } 
+    } 
     .button_natsu {
         width: 4rem;
         height: 6rem;
@@ -2432,7 +2635,7 @@ h2{
           top: 67%;
           left:80%;
         }
-      } 
+    } 
     .button_ken {
         width: 5rem;
         height: 6rem;
@@ -2501,11 +2704,7 @@ h2{
         align-content: center;
         flex-wrap: nowrap;
     }
-    
-      
-
-    
-} 
+}
 @media screen and (min-width: 900px) and (max-width:1199px) and (min-height:600px) and (max-height:799px){
     .mainTitle {
         text-shadow: 7px 4px 2px #0b0b0b;
@@ -2520,7 +2719,7 @@ h2{
         height: 14rem;
         position: absolute;
         top: 1%;
-        left: 85%;
+        left: 84%;
     }
     #erza {
         filter: drop-shadow(5px 12px 6px black);
@@ -2549,6 +2748,22 @@ h2{
         top: 15%;
         font-size: 19px;
     }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
         #display_auteur {
         background-color: antiquewhite;
         max-height: 40vh;
@@ -2573,7 +2788,23 @@ h2{
         position: absolute;
         top: 13%;
         left: 23%;
-        font-size: 26px;
+        font-size: 22px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_shonen {
         background-color: antiquewhite;
@@ -2602,7 +2833,23 @@ h2{
         position: absolute;
         top: 37%;
         left: 17%;
-        font-size: 26px;
+        font-size: 22px;
+    }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_seinen {
         background-color: antiquewhite;
@@ -2629,7 +2876,23 @@ h2{
         position: absolute;
         top: 50%;
         left: 29%;
-        font-size: 30px;
+        font-size: 22px;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_shojo {
         background-color: antiquewhite;
@@ -2656,7 +2919,23 @@ h2{
         position: absolute;
         top: 14%;
         left: 59%;
-        font-size: 23px;
+        font-size: 22px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_liseuse {
         background-color: antiquewhite;
@@ -2686,7 +2965,23 @@ h2{
         position: absolute;
         top: 33%;
         left: 69%;
-        font-size: 26px;
+        font-size: 22px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_videos {
         background-color: antiquewhite;
@@ -2707,7 +3002,7 @@ h2{
         right: 0vh;
     }
     .container_videos {
-        background-image: url(./images/gallerie/groupe2.jpg);
+        background-image: url("./images/gallerie/groupe2.jpg");
         display: flex;
         flex-direction: row;
         height: 67vh;
@@ -2730,6 +3025,22 @@ h2{
         top: 45%;
         left: 55%;
         font-size: 18px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
     }
     #display_artbooks {
         background-color: antiquewhite;
@@ -2792,6 +3103,24 @@ h2{
         position: absolute;
         top: 67%;
         left: 3.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 67%;
+          left:3.5%;
+        }
+      
+        to {
+          top: 65%;
+          left:3.5%;
+        }
     }
     .nuages {
         width: 6rem;
@@ -2858,15 +3187,56 @@ h2{
     }
     #goku {
         filter: drop-shadow(2px 7px 3px black);
-        background: url(./images/personnages/goku_petit01.png);
+        background: url("./images/personnages/goku_petit01.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 6rem;
         opacity: 1;
         position: absolute;
-        top: 65%;
+        top: 64%;
         left: 30%;
     }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 64%;
+          left:30%;
+        }
+      
+        to {
+          top: 63%;
+          left:30%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:100%
+        }
+    } 
+    
     .nuages1 {
         width: 6rem;
         height: 3rem;
@@ -2973,7 +3343,7 @@ h2{
     }
     #natsu {
         filter: drop-shadow(2px 7px 3px black);
-        background: url(./images/personnages/natsu01.png);
+        background: url("./images/personnages/natsu01.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 9rem;
@@ -2982,6 +3352,24 @@ h2{
         top: 64%;
         left: 57%;
     }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 64%;
+          left:57%;
+        }
+      
+        to {
+          top: 63%;
+          left:57%;
+        }
+    } 
     .nuages2 {
         width: 6rem;
         height: 3rem;
@@ -3072,6 +3460,24 @@ h2{
         top: 54%;
         left: 84%;
     }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 54%;
+          left:84%;
+        }
+      
+        to {
+          top: 53%;
+          left:84%;
+        }
+    } 
     .nuages3 {
         width: 6rem;
         height: 3rem;
@@ -3174,6 +3580,22 @@ h2{
         top: 15%;
         font-size: 21px;
     }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     
     #display_auteur {
         
@@ -3202,6 +3624,22 @@ h2{
         top: 15%;
         left: 24%;
         font-size: 26px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_shonen {
         background-color: antiquewhite;
@@ -3232,6 +3670,22 @@ h2{
         left: 16%;
         font-size: 29px;
     }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_seinen {
         background-color: antiquewhite;
         max-height: 41vh;
@@ -3257,6 +3711,22 @@ h2{
         top: 50%;
         left: 29%;
         font-size: 30px;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_shojo {
         background-color: antiquewhite;
@@ -3284,6 +3754,22 @@ h2{
         top: 15%;
         left: 62%;
         font-size: 25px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_liseuse {
         background-color: antiquewhite;
@@ -3314,6 +3800,22 @@ h2{
         top: 34%;
         left: 71%;
         font-size: 27px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_videos {
         background-color: antiquewhite;
@@ -3356,6 +3858,22 @@ h2{
         top: 47%;
         left: 57%;
         font-size: 26px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
     }
     #display_artbooks {
         background-color: antiquewhite;
@@ -3418,6 +3936,24 @@ h2{
         position: absolute;
         top: 70%;
         left: 5.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 70%;
+          left:5.5%;
+        }
+      
+        to {
+          top: 68%;
+          left:5.5%;
+        }
     }
     .nuages {
         width: 9rem;
@@ -3493,6 +4029,46 @@ h2{
         top: 68%;
         left: 31%;
     }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 67%;
+          left:31%;
+        }
+      
+        to {
+          top: 66%;
+          left:31%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:100%
+        }
+    } 
     .nuages1 {
         width: 9rem;
         height: 5rem;
@@ -3534,7 +4110,7 @@ h2{
     }
     .container_votreavis {
         display: flex;
-        background-image: url(./images/décor/montagne\ trou.jpg);
+        background-image: url("./images/décor/montagne\ trou.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -3570,6 +4146,24 @@ h2{
         top: 67%;
         left: 57%;
     }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 67%;
+          left:57%;
+        }
+      
+        to {
+          top: 66%;
+          left:57%;
+        }
+    } 
     .nuages2 {
         width: 9rem;
         height: 5rem;
@@ -3607,9 +4201,7 @@ h2{
         z-index: 10;
         flex-direction: column;
         align-items: stretch;
-        /* justify-content: space-between; */
         align-content: center;
-        /* flex-wrap: wrap; */
     }   
     #display_collection {
         background-color: antiquewhite;
@@ -3660,6 +4252,24 @@ h2{
         top: 60%;
         left: 83%;
     }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 60%;
+          left:83%;
+        }
+      
+        to {
+          top: 59%;
+          left:83%;
+        }
+    } 
     .nuages3 {
         width: 9rem;
         height: 5rem;
@@ -3763,6 +4373,22 @@ h2{
         top: 15%;
         font-size: 27px;
     }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     
     #display_auteur {
         
@@ -3791,6 +4417,22 @@ h2{
         top: 15%;
         left: 26%;
         font-size: 26px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_shonen {
         background-color: antiquewhite;
@@ -3821,6 +4463,22 @@ h2{
         left: 16%;
         font-size: 29px;
     }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_seinen {
         background-color: antiquewhite;
         max-height: 35vh;
@@ -3848,6 +4506,22 @@ h2{
         left: 29%;
         font-size: 30px;
     }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_shojo {
         background-color: antiquewhite;
         max-height: 35vh;
@@ -3874,6 +4548,22 @@ h2{
         top: 15%;
         left: 64%;
         font-size: 25px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_liseuse {
         background-color: antiquewhite;
@@ -3904,6 +4594,22 @@ h2{
         top: 34%;
         left: 74%;
         font-size: 27px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_videos {
         background-color: antiquewhite;
@@ -3946,6 +4652,22 @@ h2{
         top: 50%;
         left: 58%;
         font-size: 30px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
     }
     #display_artbooks {
         background-color: antiquewhite;
@@ -4008,6 +4730,24 @@ h2{
         position: absolute;
         top: 73%;
         left: 7.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 73%;
+          left:7.5%;
+        }
+      
+        to {
+          top: 71%;
+          left:7.5%;
+        }
     }
     .nuages {
         width: 9rem;
@@ -4083,6 +4823,46 @@ h2{
         top: 71%;
         left: 32%;
     }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 67%;
+          left:32%;
+        }
+      
+        to {
+          top: 66%;
+          left:32%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:100%
+        }
+    } 
     .nuages1 {
         width: 9rem;
         height: 5rem;
@@ -4124,7 +4904,7 @@ h2{
     }
     .container_votreavis {
         display: flex;
-        background-image: url(./images/décor/montagne\ trou.jpg);
+        background-image: url("./images/décor/montagne\ trou.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -4160,6 +4940,24 @@ h2{
         top: 69%;
         left: 57%;
     }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 69%;
+          left:57%;
+        }
+      
+        to {
+          top: 68%;
+          left:57%;
+        }
+    } 
     .nuages2 {
         width: 9rem;
         height: 5rem;
@@ -4183,7 +4981,7 @@ h2{
     }
     .container_collection {
         display: flex;
-        background-image: url(./images/gallerie/groupe3.jpg);
+        background-image: url("./images/gallerie/groupe3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         max-height: 63vh;
@@ -4250,6 +5048,24 @@ h2{
         top: 64%;
         left: 84%;
     }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 64%;
+          left:84%;
+        }
+      
+        to {
+          top: 63%;
+          left:84%;
+        }
+    } 
     .nuages3 {
         width: 9rem;
         height: 5rem;
@@ -4353,6 +5169,22 @@ h2{
         top: 15%;
         font-size: 27px;
     }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     
     #display_auteur {
         
@@ -4381,6 +5213,22 @@ h2{
         top: 15%;
         left: 26%;
         font-size: 26px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_shonen {
         background-color: antiquewhite;
@@ -4411,6 +5259,22 @@ h2{
         left: 16%;
         font-size: 29px;
     }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_seinen {
         background-color: antiquewhite;
         max-height: 35vh;
@@ -4438,6 +5302,22 @@ h2{
         left: 29%;
         font-size: 30px;
     }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
     #display_shojo {
         background-color: antiquewhite;
         max-height: 35vh;
@@ -4464,6 +5344,22 @@ h2{
         top: 15%;
         left: 64%;
         font-size: 25px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_liseuse {
         background-color: antiquewhite;
@@ -4494,6 +5390,22 @@ h2{
         top: 34%;
         left: 74%;
         font-size: 27px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
     }
     #display_videos {
         background-color: antiquewhite;
@@ -4536,6 +5448,22 @@ h2{
         top: 50%;
         left: 58%;
         font-size: 30px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
     }
     #display_artbooks {
         background-color: antiquewhite;
@@ -4598,6 +5526,24 @@ h2{
         position: absolute;
         top: 73%;
         left: 7.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 73%;
+          left:7.5%;
+        }
+      
+        to {
+          top: 71%;
+          left:7.5%;
+        }
     }
     .nuages {
         width: 9rem;
@@ -4673,6 +5619,46 @@ h2{
         top: 71%;
         left: 32%;
     }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 67%;
+          left:32%;
+        }
+      
+        to {
+          top: 66%;
+          left:32%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:100%
+        }
+    } 
     .nuages1 {
         width: 9rem;
         height: 5rem;
@@ -4714,7 +5700,7 @@ h2{
     }
     .container_votreavis {
         display: flex;
-        background-image: url(./images/décor/montagne\ trou.jpg);
+        background-image: url("./images/décor/montagne\ trou.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -4750,6 +5736,24 @@ h2{
         top: 69%;
         left: 57%;
     }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 69%;
+          left:57%;
+        }
+      
+        to {
+          top: 68%;
+          left:57%;
+        }
+    } 
     .nuages2 {
         width: 9rem;
         height: 5rem;
@@ -4773,7 +5777,7 @@ h2{
     }
     .container_collection {
         display: flex;
-        background-image: url(./images/gallerie/groupe3.jpg);
+        background-image: url("./images/gallerie/groupe3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         max-height: 63vh;
@@ -4840,6 +5844,24 @@ h2{
         top: 64%;
         left: 84%;
     }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 64%;
+          left:84%;
+        }
+      
+        to {
+          top: 63%;
+          left:84%;
+        }
+    } 
     .nuages3 {
         width: 9rem;
         height: 5rem;
