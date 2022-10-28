@@ -16,7 +16,7 @@
    height: 100vh; 
 }
 #background {
-    background-image: url("/images/décor/fond-principal.png");
+    background-image: url("./images/décor/fond-principal.png");
     background-repeat: no-repeat;
     background-size: cover;
     grid-row-start: 2;
@@ -25,7 +25,7 @@
     grid-column-end: 9; 
  }
 #corner_left {
-   background-image: url("/images/décor/corner_left.png"); 
+   background-image: url("./images/décor/corner_left.png"); 
    grid-row-start: 2;
    grid-column-start: 1;
    grid-row-end: 5;
@@ -46,7 +46,7 @@
     background-position: bottom;
 }
 #shenron {
-    background-image: url("images/shenron.png");
+    background-image: url("./images/shenron.png");
     grid-row-start: 2;
     grid-column-start: 1;
     grid-row-end: 8;
@@ -124,7 +124,7 @@
 }
 /************************************ id boules ..................................*/
 #auteur {   
-    background: url("../images/décor/boule 1.png");
+    background: url("./images/décor/boule 1.png");
     background-size: 8.5rem;
     background-repeat: no-repeat;
     background-position: center center;
@@ -134,7 +134,7 @@
     top: -1rem;     
 }
 #shonen {
-    background: url("../images/décor/boule 2.png");
+    background: url("./images/décor/boule 2.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 5rem;
@@ -144,7 +144,7 @@
     left: -5.5rem;  
 }
 #seinen {
-    background: url("../images/décor/boule 3.png");
+    background: url("./images/décor/boule 3.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 9rem;
@@ -154,7 +154,7 @@
     left: -12.5rem;    
 }
 #shojo {
-    background: url("../images/décor/boule 4.png");
+    background: url("./images/décor/boule 4.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 9rem;
@@ -164,7 +164,7 @@
     left: 4rem;    
 }
 #liseuse {
-    background: url("../images/décor/boule 5.png");
+    background: url("./images/décor/boule 5.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 5.5rem;
@@ -176,7 +176,7 @@
 #videos {
     width: 9rem;
     height: 9rem;
-    background: url("../images/décor/boule 6.png");
+    background: url("./images/décor/boule 6.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 5.5rem;
@@ -188,7 +188,7 @@
 #artbooks {
     width: 9rem;
     height: 9rem;
-    background: url("../images/décor/boule 7.png");
+    background: url("./images/décor/boule 7.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 5.5rem;
@@ -235,7 +235,7 @@
 .nuages{
     width: 5rem;
     height: 4rem;
-    background: url("../images/décor/nuage01.png");
+    background: url("./images/décor/nuage01.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1rem;
@@ -698,7 +698,7 @@
     border-width: medium;
     width: 2rem;
     height: 2rem;
-    background-image: url("../images/personnages/happy.png");
+    background-image: url("./images/personnages/happy.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -1550,7 +1550,7 @@ h2{
     #display_votreavis {
         background-color: antiquewhite;
         max-height: 74vh;
-        max-width: 110vh;
+        max-width: 92vh;
         border-style: double;
         border-radius: 5%;
         border-color: black;
