@@ -1,0 +1,5671 @@
+@media screen and (min-width: 375px) and (max-width:599px) and (min-height:300px) and (max-height:479px){
+
+    .mainTitle {
+        text-shadow: 3px 1px 2px #0b0b0b;
+        text-align: center;
+        font-size: 35px;
+        color: antiquewhite;
+        text-shadow: 7px 4px 2px #0b0b0b;
+    }
+    #erza {
+        filter: drop-shadow(1px 4px 1px black);
+        position: absolute;
+        top: 1%;
+        width: 6rem;
+        height: 5rem;
+    }
+    #ikki {
+        filter: drop-shadow(1px 4px 1px black);
+        position: absolute;
+        top: 1%;
+        right: 0%;
+        width: 4rem;
+        height: 5rem;
+    }
+
+    /*....................................corners.............................*/
+
+    #corner_left {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+    }
+    #corner_right {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 52%;
+    }
+    /*.............................boules...................................*/
+    .boule {
+        width: 4rem;
+        height: 4rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 11px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    /*....................................boule auteur......................*/
+
+    #auteur {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 4.5rem;
+        position: absolute;
+        left: 2%;
+        top: 8%;
+        font-size: 8px;
+    }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_auteur {
+        font-size: 10px;
+        text-align: justify;
+        max-height: 55vh;
+        max-width: 55vh;
+        position: absolute;
+        top: 0vh;
+        left: -54vh;
+        right: -12.1vh;
+    }
+
+    /*................................boule shonen...........................*/
+
+    #shonen {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 3rem;
+        opacity: 1;
+        position: absolute;
+        top: 12%;
+        left: 19%;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shonen {
+        max-height: 50vh;
+        max-width: 75vh;
+        position: absolute;
+        top: 20%;
+        z-index: 10;
+        position: absolute;
+        top: 11vh;
+        font-size: 10px;
+    }
+
+    /*................................boule seinen...........................*/
+
+    #seinen {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 5.3rem;
+        opacity: 1;
+        position: absolute;
+        top: 37%;
+        left: 14%;
+    }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_seinen {
+        font-size: 10px;
+        max-height: 50vh;
+        max-width: 76vh;
+        position: absolute;
+        top: 10vh;
+        left: 0vh;
+    }
+
+    /*................................boule shojo...........................*/
+
+    #shojo {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 5.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 52%;
+        left: 28%;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shojo {
+        background-color: antiquewhite;
+        max-height: 50vh;
+        max-width: 75vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: 15vh;
+        font-size: 10px;
+    }
+
+    /*................................boule liseuse...........................*/
+
+    #liseuse {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 3rem;
+        opacity: 1;
+        position: absolute;
+        top: 10%;
+        left: 65%;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_liseuse {
+        max-height: 91vh;
+        max-width: 65vh;
+        position: absolute;
+        top: -13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+
+    /*..............................boule videos...............................*/
+
+    #videos {
+        filter: drop-shadow(2px 3px 3px white);
+        width: 4rem;
+        height: 4rem;
+        background-size: 3rem;
+        opacity: 1;
+        position: absolute;
+        top: 34%;
+        left: 70%;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_videos {
+        max-height: 93vh;
+        max-width: 118vh;
+        position: absolute;
+        top: -12vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_videos {
+        background-image: url("./images/gallerie/groupe2.jpg");
+        display: flex;
+        flex-direction: column;
+        height: 83vh;
+        width: auto;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 5%;
+    }
+
+    /*.................................boule artbooks.............................*/
+
+    #artbooks {
+        filter: drop-shadow(2px 3px 3px white);
+        width: 4rem;
+        height: 4rem;
+        background-size: 3.3rem;
+        opacity: 1;
+        position: absolute;
+        top: 51%;
+        left: 59%;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
+    }
+    #display_artbooks {
+        background-color: antiquewhite;
+        max-height: 80vh;
+        max-width: 119vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: -6vh;
+        left: 0.5vh;
+        right: 0.5vh;
+    }
+    .container_artbooks {
+        display: grid;
+        grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+        grid-template-columns: 7rem 7rem 7rem;
+        grid-row-gap: 2%;
+        grid-column-gap: 2%;
+        height: 70vh;
+        overflow: scroll;
+    }
+
+    /*............................bouton jiraya...........................................*/
+
+    #jiraya {
+        filter: drop-shadow(1px 4px 1px black);
+        background: url("./images/personnages/jiraya_sur_crapaud.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 3rem;
+        opacity: 1;
+        position: absolute;
+        top: 66%;
+        left: 4.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 66%;
+          left:4.5%;
+        }
+      
+        to {
+          top: 64%;
+          left:4.5%;
+        }
+    }
+    .button_jiraya {
+        width: 5rem;
+        height: 5rem;
+        overflow: hidden;
+        border: none;
+        z-index: 3;
+    }
+    .nuages {
+        width: 3rem;
+        height: 2rem;
+        position: absolute;
+        top: 83%;
+        left: 9%;
+    }
+    .gallerie {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 1px 0px 1px black;
+        position: absolute;
+        top: 93.5%;
+        left: 7.5%;
+        font-size: 10px;
+        margin-bottom: 1%;
+        border-radius: 25px;
+        width: 15%;
+        height: 5%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+
+    }
+    #display_gallerie {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 93vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_gallerie {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 65vh;
+        max-width: 86vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    /*...............................bouton goku..............................................*/
+    #goku {
+        filter: drop-shadow(1px 4px 1px black);
+        background: url("./images/personnages/goku_petit01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 3rem;
+        opacity: 1;
+        position: absolute;
+        top: 58%;
+        left: 24%;
+    }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 58%;
+          left:24%;
+        }
+      
+        to {
+          top: 56%;
+          left:24%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:89%
+        }
+    } 
+    .button_goku {
+        width: 7rem;
+        height: 8rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    #display_votreavis {
+        background-color: antiquewhite;
+        max-height: 74vh;
+        max-width: 92vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_votreavis {
+        display: flex;
+        background-image: url("./images/décor/montagne\ trou.jpg");
+        background-repeat: no-repeat;
+        max-height: 63vh;
+        max-width: 85vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .card h2 {
+        font-size: 26px;
+    }
+    .card .row {
+        position: relative;
+        width: 100%;
+        display: inline-flex;
+        grid: auto / auto auto;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card .row .form-group {
+        position: relative;
+        width: 100%;
+        height: 20px;
+        color: #ffffff;
+        text-shadow: 2px 1px 0 #ffffff;
+    }
+    .card .row input[type="submit"] {
+        border: 3px double black;
+        box-shadow: 5px 5px 0 var(--main-color);
+        padding: 10px;
+        height: 100%;
+        width: 50%;
+        cursor: pointer;
+        outline: none;
+        background: #ffffff;
+        text-transform: uppercase;
+        color: var(--main-color);
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 45px;
+        transition: all 0.4s;
+    }
+    .nuages1 {
+        width: 3rem;
+        height: 2rem;
+        position: absolute;
+        top: 83%;
+        left: 32%;
+    }
+    .vos_heros {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 1px 0px 1px black;
+        position: absolute;
+        top: 93.5%;
+        left: 31.5%;
+        font-size: 10px;
+        border-radius: 25px;
+        width: 15%;
+        height: 5%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+    }
+
+    /*.....................................bouton natsu......................................*/
+    #natsu {
+        filter: drop-shadow(1px 4px 1px black);
+        background: url("./images/personnages/natsu01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 4rem;
+        opacity: 1;
+        position: absolute;
+        top: 66%;
+        left: 56%;
+    }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 66%;
+          left:56%;
+        }
+      
+        to {
+          top: 65%;
+          left:56%;
+        }
+    } 
+    .button_natsu {
+        width: 4rem;
+        height: 5rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 75vh;
+        max-width: 102vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .nuages2 {
+        width: 3rem;
+        height: 2rem;
+        position: absolute;
+        top: 83%;
+        left: 58%;
+    }
+    .ma_collection {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 1px 0px 1px black;
+        position: absolute;
+        top: 93.5%;
+        left: 57.5%;
+        font-size: 10px;
+        border-radius: 25px;
+        width: 15%;
+        height: 5%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+    }
+    .container_collection {
+        display: flex;
+        background-image: url("./images/gallerie/groupe3.jpg");
+        background-repeat: no-repeat;
+        max-height: 65vh;
+        max-width: 95vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 80vh;
+        max-width: 102vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 7px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_liste {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: initial;
+        overflow: scroll;
+        padding: 12px;
+        z-index: 10;
+        z-index: 10;
+        position: relative;
+        top: 7vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    
+
+    /*.......................................bouton ken......................................*/
+    #ken {
+        filter: drop-shadow(1px 4px 1px black);
+        background: url("./images/personnages/ken.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 2rem;
+        opacity: 1;
+        position: absolute;
+        top: 62%;
+        left: 77%;
+    }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 62%;
+          left:77%;
+        }
+      
+        to {
+          top: 61%;
+          left:77%;
+        }
+    } 
+    .button_ken {
+        width: 5rem;
+        height: 6rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    .nuages3 {
+        width: 3rem;
+        height: 2rem;
+        position: absolute;
+        top: 83%;
+        left: 81%;
+    }
+    .contacts {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 1px 0px 1px black;
+        position: absolute;
+        top: 93.5%;
+        left: 79.5%;
+        font-size: 10px;
+        margin-bottom: 1%;
+        border-radius: 25px;
+        width: 15%;
+        height: 5%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+    }
+    #display_contacts {
+        background-color: antiquewhite;
+        max-height: 79vh;
+        max-width: 110vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_contacts {
+        display: flex;
+        background-image: url("./images/gallerie/groupe.jpeg");
+        background-repeat: no-repeat;
+        max-height: 70vh;
+        max-width: 104vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+}  
+@media screen and (min-width: 600px) and (max-width:899px) and (min-height:480px) and (max-height:599px){
+
+    .mainTitle {
+        text-align: center;
+        font-size: 50px;
+        color: antiquewhite;
+        text-shadow: 7px 4px 2px #0b0b0b;
+    }
+    #erza {
+        filter: drop-shadow(1px 4px 1px black);
+        position: absolute;
+        top: 1%;
+        width: 8rem;
+        height: 7rem;
+    }
+    #ikki {
+        filter: drop-shadow(1px 4px 1px black);
+        position: absolute;
+        top: 1%;
+        right: 0%;
+        width: 5rem;
+        height: 8rem;
+    }
+
+    /*....................................corners.............................*/
+
+    #corner_left {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+    }
+    #corner_right {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 52%;
+    }
+    /*.............................boules...................................*/
+    .boule {
+        width: 4rem;
+        height: 4rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 11px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    /*....................................boule auteur......................*/
+
+    #auteur {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 5.5rem;
+        position: absolute;
+        left: 4%;
+        top: 8%;
+        font-size: 10px;
+    }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_auteur {
+        font-size: 10px;
+        text-align: justify;
+        max-height: 55vh;
+        max-width: 55vh;
+        position: absolute;
+        top: 0vh;
+        left: -54vh;
+        right: -12.1vh;
+    }
+
+    /*................................boule shonen...........................*/
+
+    #shonen {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 3.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 17%;
+        left: 23%;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shonen {
+        max-height: 50vh;
+        max-width: 75vh;
+        position: absolute;
+        top: 20%;
+        z-index: 10;
+        position: absolute;
+        top: 11vh;
+        font-size: 10px;
+    }
+
+    /*................................boule seinen...........................*/
+
+    #seinen {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 6.3rem;
+        opacity: 1;
+        position: absolute;
+        top: 36%;
+        left: 15%;
+    }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_seinen {
+        font-size: 10px;
+        max-height: 50vh;
+        max-width: 76vh;
+        position: absolute;
+        top: 10vh;
+        left: 0vh;
+    }
+
+    /*................................boule shojo...........................*/
+
+    #shojo {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 6.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 52%;
+        left: 27%;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shojo {
+        background-color: antiquewhite;
+        max-height: 50vh;
+        max-width: 75vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: 15vh;
+        font-size: 10px;
+    }
+
+    /*................................boule liseuse...........................*/
+
+    #liseuse {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 3.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 17%;
+        left: 66%;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_liseuse {
+        max-height: 95vh;
+        max-width: 65vh;
+        position: absolute;
+        top: -11vh;
+        left: 0vh;
+        right: 0vh;
+    }
+
+    /*..............................boule videos...............................*/
+
+    #videos {
+        filter: drop-shadow(2px 3px 3px white);
+        width: 4rem;
+        height: 4rem;
+        background-size: 3.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 36%;
+        left: 73%;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_videos {
+        max-height: 93vh;
+        max-width: 118vh;
+        position: absolute;
+        top: -12vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_videos {
+        background-image: url("./images/gallerie/groupe2.jpg");
+        display: flex;
+        flex-direction: column;
+        height: 83vh;
+        width: auto;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 5%;
+    }
+
+    /*.................................boule artbooks.............................*/
+
+    #artbooks {
+        filter: drop-shadow(2px 3px 3px white);
+        width: 4rem;
+        height: 4rem;
+        background-size: 3.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 51%;
+        left: 62%;
+    }
+    
+    
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
+    }
+    #display_artbooks {
+        background-color: antiquewhite;
+        max-height: 80vh;
+        max-width: 76vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: -6vh;
+        left: 0.5vh;
+        right: 0.5vh;
+    }
+    .container_artbooks {
+        display: grid;
+        grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+        grid-template-columns: 7rem 7rem 7rem;
+        grid-row-gap: 2%;
+        grid-column-gap: 2%;
+        height: 70vh;
+        overflow: scroll;
+    }
+
+    /*............................bouton jiraya...........................................*/
+
+    #jiraya {
+        filter: drop-shadow(1px 4px 1px black);
+        background: url("./images/personnages/jiraya_sur_crapaud.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 4rem;
+        opacity: 1;
+        position: absolute;
+        top: 72%;
+        left: 8.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 72%;
+          left:8.5%;
+        }
+      
+        to {
+          top: 70%;
+          left:8.5%;
+        }
+    } 
+    .button_jiraya {
+        width: 5rem;
+        height: 5rem;
+        overflow: hidden;
+        border: none;
+        z-index: 3;
+    }
+    .nuages {
+        width: 4rem;
+        height: 2.5rem;
+        position: absolute;
+        top: 84%;
+        left: 10%;
+    }
+    .gallerie {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 1px 0px 1px black;
+        position: absolute;
+        top: 93.5%;
+        left: 9.5%;
+        font-size: 10px;
+        margin-bottom: 1%;
+        border-radius: 25px;
+        width: 11%;
+        height: 5%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+    }
+    #display_gallerie {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 93vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_gallerie {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 65vh;
+        max-width: 86vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    /*...............................bouton goku..............................................*/
+    #goku {
+        filter: drop-shadow(1px 4px 1px black);
+        background: url("./images/personnages/goku_petit01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 4rem;
+        opacity: 1;
+        position: absolute;
+        top: 67%;
+        left: 30%;
+    }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 67%;
+          left:30%;
+        }
+      
+        to {
+          top: 66%;
+          left:30%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:89%;
+        }
+    } 
+    .button_goku {
+        width: 7rem;
+        height: 8rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    #display_votreavis {
+        background-color: antiquewhite;
+        max-height: 74vh;
+        max-width: 68vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_votreavis {
+        display: flex;
+        background-image: url("./images/décor/montagne\ trou.jpg");
+        background-repeat: no-repeat;
+        max-height: 63vh;
+        max-width: 62vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .card h2 {
+        font-size: 26px;
+    }
+    .card .row {
+        position: relative;
+        width: 100%;
+        display: inline-flex;
+        grid: auto / auto auto;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card .row .form-group {
+        position: relative;
+        width: 100%;
+        height: 20px;
+        color: #ffffff;
+        text-shadow: 2px 1px 0 #ffffff;
+    }
+    .card .row input[type="submit"] {
+        border: 3px double black;
+        box-shadow: 5px 5px 0 var(--main-color);
+        padding: 10px;
+        height: 100%;
+        width: 50%;
+        cursor: pointer;
+        outline: none;
+        background: #ffffff;
+        text-transform: uppercase;
+        color: var(--main-color);
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 45px;
+        transition: all 0.4s;
+    }
+    .nuages1 {
+        width: 4rem;
+        height: 2.5rem;
+        position: absolute;
+        top: 84%;
+        left: 34%;
+    }
+    .vos_heros {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 1px 0px 1px black;
+        position: absolute;
+        top: 93.5%;
+        left: 33.5%;
+        font-size: 10px;
+        border-radius: 25px;
+        width: 12%;
+        height: 5%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+    }
+
+    /*.....................................bouton natsu......................................*/
+    #natsu {
+        filter: drop-shadow(1px 4px 1px black);
+        background: url("./images/personnages/natsu01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 6rem;
+        opacity: 1;
+        position: absolute;
+        top: 69%;
+        left: 60%;
+    }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 69%;
+          left:60%;
+        }
+      
+        to {
+          top: 68%;
+          left:60%;
+        }
+    } 
+    .button_natsu {
+        width: 4rem;
+        height: 6rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 75vh;
+        max-width: 102vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .nuages2 {
+        width: 4rem;
+        height: 2.5rem;
+        position: absolute;
+        top: 84%;
+        left: 60%;
+    }
+    .ma_collection {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 1px 0px 1px black;
+        position: absolute;
+        top: 93.5%;
+        left: 59.5%;
+        font-size: 10px;
+        border-radius: 25px;
+        width: 12%;
+        height: 5%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+    }
+    .container_collection {
+        display: flex;
+        background-image: url("./images/gallerie/groupe3.jpg");
+        background-repeat: no-repeat;
+        max-height: 65vh;
+        max-width: 95vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 80vh;
+        max-width: 102vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 7px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_liste {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: initial;
+        overflow: scroll;
+        padding: 12px;
+        z-index: 10;
+        z-index: 10;
+        position: relative;
+        top: 7vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    
+
+    /*.......................................bouton ken......................................*/
+    #ken {
+        filter: drop-shadow(1px 4px 1px black);
+        background: url("./images/personnages/ken.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 3rem;
+        opacity: 1;
+        position: absolute;
+        top: 68%;
+        left: 80%;
+    }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 68%;
+          left:80%;
+        }
+      
+        to {
+          top: 67%;
+          left:80%;
+        }
+    } 
+    .button_ken {
+        width: 5rem;
+        height: 6rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    .nuages3 {
+        width: 4rem;
+        height: 2.5rem;
+        position: absolute;
+        top: 84%;
+        left: 82%;
+    }
+    .contacts {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 1px 0px 1px black;
+        position: absolute;
+        top: 93.5%;
+        left: 82%;
+        font-size: 10px;
+        margin-bottom: 1%;
+        border-radius: 25px;
+        width: 11%;
+        height: 5%;
+        box-shadow: 0 2px 2px 0 rgb(0 0 0 / 20%), 0 3px 3px 0 rgb(0 0 0 / 19%);
+    }
+    #display_contacts {
+        background-color: antiquewhite;
+        max-height: 79vh;
+        max-width: 70vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_contacts {
+        display: flex;
+        background-image: url("./images/gallerie/groupe.jpeg");
+        background-repeat: no-repeat;
+        max-height: 70vh;
+        max-width: 104vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 900px) and (max-width:1199px) and (min-height:600px) and (max-height:799px){
+    .mainTitle {
+        text-shadow: 7px 4px 2px #0b0b0b;
+        text-align: center;
+        font-size: 65px;
+        color: antiquewhite;
+    }
+    /*...........................persos header................................*/
+    #ikki {
+        filter: drop-shadow(1px 11px 4px black);
+        width: 9rem;
+        height: 14rem;
+        position: absolute;
+        top: 1%;
+        left: 84%;
+    }
+    #erza {
+        filter: drop-shadow(5px 12px 6px black);
+        width: 17rem;
+        height: 12rem;
+        position: absolute;
+        top: 1%;
+    }
+    /*................................boules...................................*/
+    .boule {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    /*.......................................boule auteur...........................*/
+    #auteur {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 9.5rem;
+        position: absolute;
+        left: 3%;
+        top: 15%;
+        font-size: 19px;
+    }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+        #display_auteur {
+        background-color: antiquewhite;
+        max-height: 40vh;
+        max-width: 40vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 16vh;
+        right: 54%;
+    }
+    /*................................boule shonen .............................*/
+    #shonen {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 6rem;
+        opacity: 1;
+        position: absolute;
+        top: 13%;
+        left: 23%;
+        font-size: 22px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shonen {
+        background-color: antiquewhite;
+        max-height: 54vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        left: 4%;
+    }
+    /*...............................boule seinen.............................*/
+    #seinen {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 10rem;
+        opacity: 1;
+        position: absolute;
+        top: 37%;
+        left: 17%;
+        font-size: 22px;
+    }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_seinen {
+        background-color: antiquewhite;
+        max-height: 48vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 40%;
+        left: 14%;
+    }
+    /*...............................boule shojo....................*/
+    #shojo {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 10.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 29%;
+        font-size: 22px;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shojo {
+        background-color: antiquewhite;
+        max-height: 50vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 40%;
+        left: 7%;
+    }
+    /*...............................boule liseuse...................*/
+    #liseuse {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 6rem;
+        opacity: 1;
+        position: absolute;
+        top: 14%;
+        left: 59%;
+        font-size: 22px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_liseuse {
+        background-color: antiquewhite;
+        max-height: 84vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 3%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 0vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    /*.....................................boule videos...............................*/
+    #videos {
+        filter: drop-shadow(2px 9px 7px white);
+        width: 10rem;
+        height: 10rem;
+        background-size: 6rem;
+        opacity: 1;
+        position: absolute;
+        top: 33%;
+        left: 69%;
+        font-size: 22px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_videos {
+        background-color: antiquewhite;
+        max-height: 78vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 5vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_videos {
+        background-image: url("./images/gallerie/groupe2.jpg");
+        display: flex;
+        flex-direction: row;
+        height: 67vh;
+        width: auto;
+        overflow: scroll;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5%;
+        align-content: flex-start;
+    }
+    /*....................................boule artbooks..............................*/
+    #artbooks {
+        filter: drop-shadow(2px 9px 7px white);
+        width: 11rem;
+        height: 11rem;
+        background-size: 6rem;
+        opacity: 1;
+        position: absolute;
+        top: 45%;
+        left: 55%;
+        font-size: 18px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
+    }
+    #display_artbooks {
+        background-color: antiquewhite;
+        max-height: 80vh;
+        max-width: 65vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 4vh;
+        left: 3.5vh;
+        right: 0.5vh;
+    }
+    .container_artbooks {
+        display: flex;
+        grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+        grid-template-columns: 7rem 7rem 7rem;
+        grid-row-gap: 2%;
+        grid-column-gap: 2%;
+        height: 50vh;
+        overflow: scroll;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    /*..................................corners.................................*/
+
+    #corner_left {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+    } 
+    #corner_right {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 52%;
+    }
+
+    /*......................................petits jiraya ............................*/
+    .button_jiraya {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 3;
+    }
+    #jiraya {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/jiraya_sur_crapaud.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 6rem;
+        opacity: 1;
+        position: absolute;
+        top: 67%;
+        left: 3.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 67%;
+          left:3.5%;
+        }
+      
+        to {
+          top: 65%;
+          left:3.5%;
+        }
+    }
+    .nuages {
+        width: 6rem;
+        height: 3rem;
+        position: absolute;
+        top: 85.5%;
+        left: 7%;
+    }
+    .gallerie {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 94%;
+        left: 5.5%;
+        font-size: 20px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 13%;
+        height: 5%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_gallerie {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 100vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_gallerie {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 65vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    /*.................................... petits goku.............................*/
+    .button_goku {
+        width: 8rem;
+        height: 12rem;
+    }
+    #goku {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/goku_petit01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 6rem;
+        opacity: 1;
+        position: absolute;
+        top: 64%;
+        left: 30%;
+    }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 64%;
+          left:30%;
+        }
+      
+        to {
+          top: 63%;
+          left:30%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:89%;
+        }
+    } 
+    
+    .nuages1 {
+        width: 6rem;
+        height: 3rem;
+        position: absolute;
+        top: 85.5%;
+        left: 31.5%;
+    }
+    .vos_heros {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 94%;
+        left: 30.5%;
+        font-size: 20px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 13%;
+        height: 5%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_votreavis {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 63vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_votreavis {
+        display: flex;
+        background-image: url("./images/décor/montagne\ trou.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        max-height: 65vh;
+        max-width: 60vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    .card h2 {
+        font-size: 26px;
+    }
+    .card .row {
+        position: relative;
+        width: 100%;
+        display: inline-flex;
+        grid: auto / auto auto;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card .row .form-group {
+        position: relative;
+        width: 100%;
+        height: 20px;
+        color: #ffffff;
+        text-shadow: 2px 1px 0 #ffffff;
+    }
+    .card .row input[type="submit"] {
+        border: 3px double black;
+        box-shadow: 5px 5px 0 var(--main-color);
+        padding: 10px;
+        height: 100%;
+        width: 50%;
+        cursor: pointer;
+        outline: none;
+        background: #ffffff;
+        text-transform: uppercase;
+        color: var(--main-color);
+        line-height: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 45px;
+        transition: all 0.4s;
+    }
+    /*..................................petit natsu......................................*/
+    .button_natsu {
+        width: 9rem;
+        height: 12rem;
+    }
+    #natsu {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/natsu01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 9rem;
+        opacity: 1;
+        position: absolute;
+        top: 64%;
+        left: 57%;
+    }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 64%;
+          left:57%;
+        }
+      
+        to {
+          top: 63%;
+          left:57%;
+        }
+    } 
+    .nuages2 {
+        width: 6rem;
+        height: 3rem;
+        position: absolute;
+        top: 85.5%;
+        left: 60%;
+    }
+    .ma_collection {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 94%;
+        left: 59%;
+        font-size: 20px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 13%;
+        height: 5%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .container_collection {
+        display: flex;
+        background-image: url("./images/gallerie/groupe3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 63vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+    }    
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_liste {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 50%;
+        max-width: 77%;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*.....................................petit ken.......................................*/
+    .button_ken {
+        height: 17rem;
+    }
+    #ken {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/ken.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 4.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 54%;
+        left: 84%;
+    }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 54%;
+          left:84%;
+        }
+      
+        to {
+          top: 53%;
+          left:84%;
+        }
+    } 
+    .nuages3 {
+        width: 6rem;
+        height: 3rem;
+        position: absolute;
+        top: 85.5%;
+        left: 84%;
+    }
+    .contacts {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 94%;
+        left: 83%;
+        font-size: 20px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 12%;
+        height: 5%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_contacts {
+        background-color: antiquewhite;
+        max-height: 77vh;
+        max-width: 58vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 20vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_contacts {
+        display: flex;
+        background-image: url("./images/gallerie/groupe.jpeg");
+        background-repeat: no-repeat;
+        max-height: 67vh;
+        max-width: 55vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width:1439px) and (min-height:800px) and (max-height:1023px){ 
+    .mainTitle {
+        text-shadow: 7px 4px 2px #0b0b0b;
+        text-align: center;
+        font-size: 100px;
+        color: antiquewhite;
+    }
+    /*...........................persos header................................*/
+    #ikki {
+        filter: drop-shadow(1px 4px 1px black);
+        width: 12rem;
+        height: 17rem;
+        position: absolute;
+        top: 1%;
+        left: 81%;
+    }
+    #erza {
+        filter: drop-shadow(1px 4px 1px black);
+        width: 21rem;
+        height: 16rem;
+        position: absolute;
+        top: 1%;
+    }
+    /*................................boules...................................*/
+    .boule {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    /*.......................................boule auteur...........................*/
+    #auteur {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 12.5rem;
+        position: absolute;
+        left: 3%;
+        top: 15%;
+        font-size: 21px;
+    }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    
+    #display_auteur {
+        
+        background-color: antiquewhite;
+        max-height: 30vh;
+        max-width: 30vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 16vh;
+        right: 54%;
+        
+    }
+    /*................................boule shonen .............................*/
+    #shonen {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 7.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 15%;
+        left: 24%;
+        font-size: 26px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shonen {
+        background-color: antiquewhite;
+        max-height: 50vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        left: 3%;
+    }
+    /*...............................boule seinen.............................*/
+    #seinen {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 14rem;
+        opacity: 1;
+        position: absolute;
+        top: 35%;
+        left: 16%;
+        font-size: 29px;
+    }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_seinen {
+        background-color: antiquewhite;
+        max-height: 41vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 42%;
+        left: -16%;
+    }
+    /*...............................boule shojo....................*/
+    #shojo {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 14.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 29%;
+        font-size: 30px;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shojo {
+        background-color: antiquewhite;
+        max-height: 40vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 50%;
+        left: 7%;
+    }
+    /*...............................boule liseuse...................*/
+    #liseuse {
+        filter: drop-shadow(2px 3px 3px white);
+        background-size: 7.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 15%;
+        left: 62%;
+        font-size: 25px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_liseuse {
+        background-color: antiquewhite;
+        max-height: 87vh;
+        max-width: 55vh;
+        border-style: double;
+        border-radius: 3%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: -6vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    /*.....................................boule videos...............................*/
+    #videos {
+        filter: drop-shadow(2px 3px 3px white);
+        width: 9rem;
+        height: 9rem;
+        background-size: 8rem;
+        opacity: 1;
+        position: absolute;
+        top: 34%;
+        left: 71%;
+        font-size: 27px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_videos {
+        background-color: antiquewhite;
+        max-height: 81vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 0vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_videos {
+        background-image: url("./images/gallerie/groupe2.jpg");
+        display: flex;
+        flex-direction: row;
+        height: 72vh;
+        width: auto;
+        overflow: scroll;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* align-items: flex-start; */
+        border-radius: 5%;
+    }
+    /*....................................boule artbooks..............................*/
+    #artbooks {
+        filter: drop-shadow(2px 3px 3px white);
+        width: 11rem;
+        height: 11rem;
+        background-size: 8.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 47%;
+        left: 57%;
+        font-size: 26px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
+    }
+    #display_artbooks {
+        background-color: antiquewhite;
+        max-height: 83vh;
+        max-width: 82vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 4vh;
+        left: 3.5vh;
+        right: 0.5vh;
+    }
+    .container_artbooks {
+        display: flex;
+        grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+        grid-template-columns: 7rem 7rem 7rem;
+        grid-row-gap: 2%;
+        grid-column-gap: 2%;
+        height: 67vh;
+        overflow: scroll;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    /*..................................corners.................................*/
+
+    #corner_left {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+    } 
+    #corner_right {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 52%;
+    }
+
+    /*......................................petits jiraya ............................*/
+    .button_jiraya {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 3;
+    }
+    #jiraya {
+        filter: drop-shadow(1px 4px 2px black);
+        background: url("./images/personnages/jiraya_sur_crapaud.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 9rem;
+        opacity: 1;
+        position: absolute;
+        top: 70%;
+        left: 5.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 70%;
+          left:5.5%;
+        }
+      
+        to {
+          top: 68%;
+          left:5.5%;
+        }
+    }
+    .nuages {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 7%;
+    }
+    .gallerie {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 94.5%;
+        left: 5.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_gallerie {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 100vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_gallerie {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 65vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    /*.................................... petits goku.............................*/
+    .button_goku {
+        width: 8rem;
+        height: 12rem;
+    }
+    #goku {
+        filter: drop-shadow(1px 4px 2px black);
+        background: url("./images/personnages/goku_petit01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 8rem;
+        opacity: 1;
+        position: absolute;
+        top: 68%;
+        left: 31%;
+    }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 67%;
+          left:31%;
+        }
+      
+        to {
+          top: 66%;
+          left:31%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:89%;
+        }
+    } 
+    .nuages1 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 30%;
+    }
+    .vos_heros {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 94.5%;
+        left: 28.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_votreavis {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_votreavis {
+        display: flex;
+        background-image: url("./images/décor/montagne\ trou.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        max-height: 65vh;
+        max-width: 75vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    /*..................................petit natsu......................................*/
+    .button_natsu {
+        width: 9rem;
+        height: 12rem;
+    }
+    #natsu {
+        filter: drop-shadow(1px 6px 3px black);
+        background: url("./images/personnages/natsu01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 11rem;
+        opacity: 1;
+        position: absolute;
+        top: 67%;
+        left: 57%;
+    }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 67%;
+          left:57%;
+        }
+      
+        to {
+          top: 66%;
+          left:57%;
+        }
+    } 
+    .nuages2 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 57%;
+    }
+    .ma_collection {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 94.5%;
+        left: 55.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .container_collection {
+        display: flex;
+        background-image: url("./images/gallerie/groupe3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 68vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        align-content: center;
+    }   
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 74vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_liste {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 50%;
+        max-width: 77%;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*.....................................petit ken.......................................*/
+    .button_ken {
+        height: 17rem;
+    }
+    #ken {
+        filter: drop-shadow(1px 7px 3px black);
+        background: url("./images/personnages/ken.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 6rem;
+        opacity: 1;
+        position: absolute;
+        top: 60%;
+        left: 83%;
+    }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 60%;
+          left:83%;
+        }
+      
+        to {
+          top: 59%;
+          left:83%;
+        }
+    } 
+    .nuages3 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 81.5%;
+    }
+    .contacts {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 94.5%;
+        left: 80%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_contacts {
+        background-color: antiquewhite;
+        max-height: 77vh;
+        max-width: 59vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 20vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_contacts {
+        display: flex;
+        background-image: url("./images/gallerie/groupe.jpeg");
+        background-repeat: no-repeat;
+        max-height: 67vh;
+        max-width: 55vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }  
+      
+} 
+@media screen and (min-width: 1440px) and (max-width: 1919px) and (min-height:1024px) {
+    .mainTitle {
+        text-shadow: 7px 4px 2px #0b0b0b;
+        text-align: center;
+        font-size: 100px;
+        color: antiquewhite;
+    }
+    /*...........................persos header................................*/
+    #ikki {
+        filter: drop-shadow(1px 11px 4px black);
+        width: 12rem;
+        height: 17rem;
+        position:absolute;
+        top: 1%;
+        left: 87%;
+    }
+    #erza {
+        filter: drop-shadow(5px 12px 6px black);
+        width: 21rem;
+        height: 16rem;
+        position:absolute;
+        top:1%;
+    }
+    /*................................boules...................................*/
+    .boule {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    /*.......................................boule auteur...........................*/
+    #auteur {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 14.5rem;
+        position: absolute;
+        left: 3%;
+        top: 15%;
+        font-size: 27px;
+    }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    
+    #display_auteur {
+        
+        background-color: antiquewhite;
+        max-height: 30vh;
+        max-width: 30vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 16vh;
+        right: 54%;
+        
+    }
+    /*................................boule shonen .............................*/
+    #shonen {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 8.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 15%;
+        left: 26%;
+        font-size: 26px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shonen {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 41vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+    }
+    /*...............................boule seinen.............................*/
+    #seinen {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 17rem;
+        opacity: 1;
+        position: absolute;
+        top: 35%;
+        left: 16%;
+        font-size: 29px;
+    }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_seinen {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 42vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 40%;
+        left: 14%;
+    }
+    /*...............................boule shojo....................*/
+    #shojo {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 17.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 53%;
+        left: 29%;
+        font-size: 30px;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shojo {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 42vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 59%;
+        left: 7%;
+    }
+    /*...............................boule liseuse...................*/
+    #liseuse {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 8.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 15%;
+        left: 64%;
+        font-size: 25px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_liseuse {
+        background-color: antiquewhite;
+        max-height: 84vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 3%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 0vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    /*.....................................boule videos...............................*/
+    #videos {
+        filter: drop-shadow(2px 9px 7px white);
+        width: 10rem;
+        height: 10rem;
+        background-size: 10rem;
+        opacity: 1;
+        position: absolute;
+        top: 34%;
+        left: 74%;
+        font-size: 27px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_videos {
+        background-color: antiquewhite;
+        max-height: 78vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 5vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_videos {
+        background-image: url("./images/gallerie/groupe2.jpg");
+        display: flex;
+        flex-direction: row;
+        height: 67vh;
+        width: auto;
+        overflow: scroll;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5%;
+    }
+    /*....................................boule artbooks..............................*/
+    #artbooks {
+        filter: drop-shadow(2px 9px 7px white);
+        width: 11rem;
+        height: 11rem;
+        background-size: 10.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 58%;
+        font-size: 30px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
+    }
+    #display_artbooks {
+        background-color: antiquewhite;
+        max-height: 80vh;
+        max-width: 65vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 4vh;
+        left: 3.5vh;
+        right: 0.5vh;
+    }
+    .container_artbooks {
+        display: flex;
+        grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+        grid-template-columns: 7rem 7rem 7rem;
+        grid-row-gap: 2%;
+        grid-column-gap: 2%;
+        height: 50vh;
+        overflow: scroll;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        align-items: center;
+    }
+    /*..................................corners.................................*/
+
+    #corner_left {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+    } 
+    #corner_right {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 52%;
+    }
+
+    /*......................................petits jiraya ............................*/
+    .button_jiraya {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 3;
+    }
+    #jiraya {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/jiraya_sur_crapaud.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 9rem;
+        opacity: 1;
+        position: absolute;
+        top: 73%;
+        left: 7.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 73%;
+          left:7.5%;
+        }
+      
+        to {
+          top: 71%;
+          left:7.5%;
+        }
+    }
+    .nuages {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 8%;
+    }
+    .gallerie {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 5.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_gallerie {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 100vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_gallerie {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 65vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    /*.................................... petits goku.............................*/
+    .button_goku {
+        width: 8rem;
+        height: 12rem;
+    }
+    #goku {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/goku_petit01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 8rem;
+        opacity: 1;
+        position: absolute;
+        top: 67%;
+        left: 32%;
+    }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 67%;
+          left:32%;
+        }
+      
+        to {
+          top: 66%;
+          left:32%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:89%;
+        }
+    } 
+    .nuages1 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 31.5%;
+    }
+    .vos_heros {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 28.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_votreavis {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_votreavis {
+        display: flex;
+        background-image: url("./images/décor/montagne\ trou.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        max-height: 65vh;
+        max-width: 75vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    /*..................................petit natsu......................................*/
+    .button_natsu {
+        width: 9rem;
+        height: 12rem;
+    }
+    #natsu {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/natsu01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 13rem;
+        opacity: 1;
+        position: absolute;
+        top: 69%;
+        left: 57%;
+    }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 69%;
+          left:57%;
+        }
+      
+        to {
+          top: 68%;
+          left:57%;
+        }
+    } 
+    .nuages2 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 57%;
+    }
+    .ma_collection {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 54.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .container_collection {
+        display: flex;
+        background-image: url("./images/gallerie/groupe3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 63vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+    }    
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_liste {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 50%;
+        max-width: 77%;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*.....................................petit ken.......................................*/
+    .button_ken {
+        height: 17rem;
+    }
+    #ken {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/ken.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 7rem;
+        opacity: 1;
+        position: absolute;
+        top: 64%;
+        left: 84%;
+    }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 64%;
+          left:84%;
+        }
+      
+        to {
+          top: 63%;
+          left:84%;
+        }
+    } 
+    .nuages3 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 83%;
+    }
+    .contacts {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 80%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_contacts {
+        background-color: antiquewhite;
+        max-height: 77vh;
+        max-width: 59vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 20vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_contacts {
+        display: flex;
+        background-image: url("./images/gallerie/groupe.jpeg");
+        background-repeat: no-repeat;
+        max-height: 67vh;
+        max-width: 55vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    
+} 
+@media screen and (min-width: 1920px) and (max-width: 2000px) and (min-height:1080px) {
+    .mainTitle {
+        text-shadow: 7px 4px 2px #0b0b0b;
+        text-align: center;
+        font-size: 100px;
+        color: antiquewhite;
+    }
+    /*...........................persos header................................*/
+    #ikki {
+        filter: drop-shadow(1px 11px 4px black);
+        width: 12rem;
+        height: 17rem;
+        position:absolute;
+        top: 1%;
+        left: 87%;
+    }
+    #erza {
+        filter: drop-shadow(5px 12px 6px black);
+        width: 21rem;
+        height: 16rem;
+        position:absolute;
+        top:1%;
+    }
+    /*................................boules...................................*/
+    .boule {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    /*.......................................boule auteur...........................*/
+    #auteur {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 14.5rem;
+        position: absolute;
+        left: 3%;
+        top: 15%;
+        font-size: 27px;
+    }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    
+    #display_auteur {
+        
+        background-color: antiquewhite;
+        max-height: 30vh;
+        max-width: 30vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 16vh;
+        right: 54%;
+        
+    }
+    /*................................boule shonen .............................*/
+    #shonen {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 8.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 15%;
+        left: 26%;
+        font-size: 26px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shonen {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 41vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+    }
+    /*...............................boule seinen.............................*/
+    #seinen {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 17rem;
+        opacity: 1;
+        position: absolute;
+        top: 35%;
+        left: 16%;
+        font-size: 29px;
+    }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_seinen {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 42vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 40%;
+        left: 14%;
+    }
+    /*...............................boule shojo....................*/
+    #shojo {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 17.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 53%;
+        left: 29%;
+        font-size: 30px;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shojo {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 42vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 59%;
+        left: 7%;
+    }
+    /*...............................boule liseuse...................*/
+    #liseuse {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 8.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 15%;
+        left: 64%;
+        font-size: 25px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_liseuse {
+        background-color: antiquewhite;
+        max-height: 84vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 3%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 0vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    /*.....................................boule videos...............................*/
+    #videos {
+        filter: drop-shadow(2px 9px 7px white);
+        width: 10rem;
+        height: 10rem;
+        background-size: 10rem;
+        opacity: 1;
+        position: absolute;
+        top: 34%;
+        left: 74%;
+        font-size: 27px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_videos {
+        background-color: antiquewhite;
+        max-height: 78vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 5vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_videos {
+        background-image: url("./images/gallerie/groupe2.jpg");
+        display: flex;
+        flex-direction: row;
+        height: 67vh;
+        width: auto;
+        overflow: scroll;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5%;
+    }
+    /*....................................boule artbooks..............................*/
+    #artbooks {
+        filter: drop-shadow(2px 9px 7px white);
+        width: 11rem;
+        height: 11rem;
+        background-size: 10.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 58%;
+        font-size: 30px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
+    }
+    #display_artbooks {
+        background-color: antiquewhite;
+        max-height: 80vh;
+        max-width: 65vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 4vh;
+        left: 3.5vh;
+        right: 0.5vh;
+    }
+    .container_artbooks {
+        display: flex;
+        grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+        grid-template-columns: 7rem 7rem 7rem;
+        grid-row-gap: 2%;
+        grid-column-gap: 2%;
+        height: 50vh;
+        overflow: scroll;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        align-items: center;
+    }
+    /*..................................corners.................................*/
+
+    #corner_left {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+    } 
+    #corner_right {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 52%;
+    }
+
+    /*......................................petits jiraya ............................*/
+    .button_jiraya {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 3;
+    }
+    #jiraya {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/jiraya_sur_crapaud.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 9rem;
+        opacity: 1;
+        position: absolute;
+        top: 73%;
+        left: 7.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 73%;
+          left:7.5%;
+        }
+      
+        to {
+          top: 71%;
+          left:7.5%;
+        }
+    }
+    .nuages {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 8%;
+    }
+    .gallerie {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 5.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_gallerie {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 100vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_gallerie {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 65vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    /*.................................... petits goku.............................*/
+    .button_goku {
+        width: 8rem;
+        height: 12rem;
+    }
+    #goku {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/goku_petit01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 8rem;
+        opacity: 1;
+        position: absolute;
+        top: 71%;
+        left: 32%;
+    }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 67%;
+          left:32%;
+        }
+      
+        to {
+          top: 66%;
+          left:32%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:89%;
+        }
+    } 
+    .nuages1 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 31.5%;
+    }
+    .vos_heros {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 28.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_votreavis {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_votreavis {
+        display: flex;
+        background-image: url("./images/décor/montagne\ trou.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        max-height: 65vh;
+        max-width: 75vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    /*..................................petit natsu......................................*/
+    .button_natsu {
+        width: 9rem;
+        height: 12rem;
+    }
+    #natsu {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/natsu01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 13rem;
+        opacity: 1;
+        position: absolute;
+        top: 69%;
+        left: 57%;
+    }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 69%;
+          left:57%;
+        }
+      
+        to {
+          top: 68%;
+          left:57%;
+        }
+    } 
+    .nuages2 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 57%;
+    }
+    .ma_collection {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 54.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .container_collection {
+        display: flex;
+        background-image: url("./images/gallerie/groupe3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 63vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+    }    
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_liste {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 50%;
+        max-width: 77%;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*.....................................petit ken.......................................*/
+    .button_ken {
+        height: 17rem;
+    }
+    #ken {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/ken.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 7rem;
+        opacity: 1;
+        position: absolute;
+        top: 64%;
+        left: 84%;
+    }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 64%;
+          left:84%;
+        }
+      
+        to {
+          top: 63%;
+          left:84%;
+        }
+    } 
+    .nuages3 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 83%;
+    }
+    .contacts {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 80%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_contacts {
+        background-color: antiquewhite;
+        max-height: 77vh;
+        max-width: 59vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 20vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_contacts {
+        display: flex;
+        background-image: url("./images/gallerie/groupe.jpeg");
+        background-repeat: no-repeat;
+        max-height: 67vh;
+        max-width: 55vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    
+} 
+@media screen and (min-width: 2400px) and (max-width: 3000px) and (min-height:1080px) {
+    .mainTitle {
+        text-shadow: 7px 4px 2px #0b0b0b;
+        text-align: center;
+        font-size: 100px;
+        color: antiquewhite;
+    }
+    /*...........................persos header................................*/
+    #ikki {
+        filter: drop-shadow(1px 11px 4px black);
+        width: 12rem;
+        height: 17rem;
+        position:absolute;
+        top: 1%;
+        left: 87%;
+    }
+    #erza {
+        filter: drop-shadow(5px 12px 6px black);
+        width: 21rem;
+        height: 16rem;
+        position:absolute;
+        top:1%;
+    }
+    /*................................boules...................................*/
+    .boule {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 2;
+        font-size: 15px;
+        font-weight: bold;
+        text-shadow: -1px 1px 0px #fafafa;
+    }
+    /*.......................................boule auteur...........................*/
+    #auteur {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 14.5rem;
+        position: absolute;
+        left: 3%;
+        top: 15%;
+        font-size: 27px;
+    }
+    #auteur {
+        animation-duration: 1s;
+        animation-name: filterauteur;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterauteur {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    
+    #display_auteur {
+        
+        background-color: antiquewhite;
+        max-height: 30vh;
+        max-width: 30vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 16vh;
+        right: 54%;
+        
+    }
+    /*................................boule shonen .............................*/
+    #shonen {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 8.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 15%;
+        left: 26%;
+        font-size: 26px;
+    }
+    #shonen {
+        animation-duration: 1s;
+        animation-name: filtershonen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filtershonen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shonen {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 41vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+    }
+    /*...............................boule seinen.............................*/
+    #seinen {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 17rem;
+        opacity: 1;
+        position: absolute;
+        top: 35%;
+        left: 16%;
+        font-size: 29px;
+    }
+    #seinen {
+        animation-duration: 1s;
+        animation-name: filterseinen;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes filterseinen {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_seinen {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 42vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 40%;
+        left: 14%;
+    }
+    /*...............................boule shojo....................*/
+    #shojo {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 17.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 53%;
+        left: 29%;
+        font-size: 30px;
+    }
+    #shojo {
+        animation-duration: 1s;
+        animation-name: filtershojo;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtershojo {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_shojo {
+        background-color: antiquewhite;
+        max-height: 35vh;
+        max-width: 42vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 59%;
+        left: 7%;
+    }
+    /*...............................boule liseuse...................*/
+    #liseuse {
+        filter: drop-shadow(2px 9px 7px white);
+        background-size: 8.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 15%;
+        left: 64%;
+        font-size: 25px;
+    }
+    #liseuse {
+        animation-duration: 1s;
+        animation-name: filterliseuse;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filterliseuse {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_liseuse {
+        background-color: antiquewhite;
+        max-height: 84vh;
+        max-width: 50vh;
+        border-style: double;
+        border-radius: 3%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 0vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    /*.....................................boule videos...............................*/
+    #videos {
+        filter: drop-shadow(2px 9px 7px white);
+        width: 10rem;
+        height: 10rem;
+        background-size: 10rem;
+        opacity: 1;
+        position: absolute;
+        top: 34%;
+        left: 74%;
+        font-size: 27px;
+    }
+    #videos {
+        animation-duration: 1s;
+        animation-name: filtervideos;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes filtervideos {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white)
+        }
+    }
+    #display_videos {
+        background-color: antiquewhite;
+        max-height: 78vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 5vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_videos {
+        background-image: url("./images/gallerie/groupe2.jpg");
+        display: flex;
+        flex-direction: row;
+        height: 67vh;
+        width: auto;
+        overflow: scroll;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5%;
+    }
+    /*....................................boule artbooks..............................*/
+    #artbooks {
+        filter: drop-shadow(2px 9px 7px white);
+        width: 11rem;
+        height: 11rem;
+        background-size: 10.5rem;
+        opacity: 1;
+        position: absolute;
+        top: 50%;
+        left: 58%;
+        font-size: 30px;
+    }
+    #artbooks {
+        animation-duration: 1s;
+        animation-name: filterartbooks;
+        animation-iteration-count: infinite;
+    }
+
+      @keyframes filterartbooks {
+        from {
+            filter: drop-shadow(2px 3px 1px white);
+            
+        }
+      
+        to {
+            filter: drop-shadow(2px 3px 10px white);
+        }        
+    }
+    #display_artbooks {
+        background-color: antiquewhite;
+        max-height: 80vh;
+        max-width: 65vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 4vh;
+        left: 3.5vh;
+        right: 0.5vh;
+    }
+    .container_artbooks {
+        display: flex;
+        grid-template-rows: 7rem 7rem 7rem 7rem 7rem 7rem 7rem;
+        grid-template-columns: 7rem 7rem 7rem;
+        grid-row-gap: 2%;
+        grid-column-gap: 2%;
+        height: 50vh;
+        overflow: scroll;
+        flex-direction: row;
+        flex-wrap: wrap;        
+        align-items: center;
+    }
+    /*..................................corners.................................*/
+
+    #corner_left {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+    } 
+    #corner_right {
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 52%;
+    }
+
+    /*......................................petits jiraya ............................*/
+    .button_jiraya {
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border: none;
+        z-index: 3;
+    }
+    #jiraya {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/jiraya_sur_crapaud.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 9rem;
+        opacity: 1;
+        position: absolute;
+        top: 73%;
+        left: 7.5%;
+    }
+    #jiraya {
+        animation-duration: 0.5s;
+        animation-name: saute;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes saute {
+        from {
+          top: 73%;
+          left:7.5%;
+        }
+      
+        to {
+          top: 71%;
+          left:7.5%;
+        }
+    }
+    .nuages {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 8%;
+    }
+    .gallerie {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 5.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_gallerie {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 100vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_gallerie {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 65vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    /*.................................... petits goku.............................*/
+    .button_goku {
+        width: 8rem;
+        height: 12rem;
+    }
+    #goku {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/goku_petit01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 8rem;
+        opacity: 1;
+        position: absolute;
+        top: 71%;
+        left: 32%;
+    }
+    #goku {
+        animation-duration: 0.5s;
+        animation-name: sautegoku;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautegoku {
+        from {
+          top: 67%;
+          left:32%;
+        }
+      
+        to {
+          top: 66%;
+          left:32%;
+        }
+    }
+    #gokunuage{
+        position:absolute;
+        height:8%;
+        width:8%;
+        top:7%;
+        left:0%;
+    }
+    #gokunuage {
+        animation-duration: 3s;
+        animation-name: gokunuage;
+        animation-iteration-count: infinite;
+    }
+      
+      @keyframes gokunuage {
+        from {
+            left:0%;
+        }
+      
+        to {
+            left:89%;
+        }
+    } 
+    .nuages1 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 31.5%;
+    }
+    .vos_heros {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 28.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_votreavis {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_votreavis {
+        display: flex;
+        background-image: url("./images/décor/montagne\ trou.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        max-height: 65vh;
+        max-width: 75vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    /*..................................petit natsu......................................*/
+    .button_natsu {
+        width: 9rem;
+        height: 12rem;
+    }
+    #natsu {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/natsu01.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 13rem;
+        opacity: 1;
+        position: absolute;
+        top: 69%;
+        left: 57%;
+    }
+    #natsu {
+        animation-duration: 0.5s;
+        animation-name: sautenatsu;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+      
+      @keyframes sautenatsu {
+        from {
+          top: 69%;
+          left:57%;
+        }
+      
+        to {
+          top: 68%;
+          left:57%;
+        }
+    } 
+    .nuages2 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 57%;
+    }
+    .ma_collection {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 54.5%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    .container_collection {
+        display: flex;
+        background-image: url("./images/gallerie/groupe3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height: 63vh;
+        max-width: 84vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: wrap;
+    }    
+    #display_collection {
+        background-color: antiquewhite;
+        max-height: 73vh;
+        max-width: 91vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 13vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_liste {
+        display: flex;
+        background-color: antiquewhite;
+        max-height: 50%;
+        max-width: 77%;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        z-index: 10;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*.....................................petit ken.......................................*/
+    .button_ken {
+        height: 17rem;
+    }
+    #ken {
+        filter: drop-shadow(2px 7px 3px black);
+        background: url("./images/personnages/ken.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 7rem;
+        opacity: 1;
+        position: absolute;
+        top: 64%;
+        left: 84%;
+    }
+    #ken {
+        animation-duration: 0.5s;
+        animation-name: sauteken;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes sauteken {
+        from {
+          top: 64%;
+          left:84%;
+        }
+      
+        to {
+          top: 63%;
+          left:84%;
+        }
+    } 
+    .nuages3 {
+        width: 9rem;
+        height: 5rem;
+        position: absolute;
+        top: 84%;
+        left: 83%;
+    }
+    .contacts {
+        background-color: antiquewhite;
+        color: var(--main-color);
+        text-shadow: 2px 1px 2px black;
+        position: absolute;
+        top: 93.5%;
+        left: 80%;
+        font-size: 25px;
+        margin-bottom: 2%;
+        border-radius: 25px;
+        width: 15%;
+        height: 4%;
+        box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
+    #display_contacts {
+        background-color: antiquewhite;
+        max-height: 77vh;
+        max-width: 59vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        text-align: justify;
+        overflow: scroll;
+        padding: 10px;
+        z-index: 10;
+        z-index: 10;
+        position: absolute;
+        top: 20vh;
+        left: 0vh;
+        right: 0vh;
+    }
+    .container_contacts {
+        display: flex;
+        background-image: url("./images/gallerie/groupe.jpeg");
+        background-repeat: no-repeat;
+        max-height: 67vh;
+        max-width: 55vh;
+        border-style: double;
+        border-radius: 5%;
+        border-color: black;
+        margin: auto;
+        overflow: scroll;
+        padding: 5px;
+        z-index: 10;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+    
+} 
